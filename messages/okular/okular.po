@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Thanomsub Noppaburana <donga.nb@gmail.com>, 2008, 2009, 2010.
 #
+# SPDX-FileCopyrightText: 2025 Vee Satayamas
 msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-25 09:29+0100\n"
-"PO-Revision-Date: 2010-12-17 21:55+0700\n"
-"Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
-"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"POT-Creation-Date: 2025-03-14 10:55+0100\n"
+"PO-Revision-Date: 2025-03-17 21:24+0700\n"
+"Last-Translator: Vee Satayamas <vsatayamas@gmail.com>\n"
+"Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 #. +> trunk6 stable6
 #, kde-format
@@ -86,7 +88,8 @@ msgstr "Tobias Koenig"
 #, fuzzy, kde-format
 #| msgid "Lots of framework work, ODT and FictionBook backends"
 msgid "Lots of framework work, FictionBook backend and former ODT backend"
-msgstr "ทำงานเกี่ยวกับเฟรมเวิร์กจำนวนมาก, ส่วนแบ็กเอนด์จัดการ ODT และ FictionBook"
+msgstr ""
+"ทำงานเกี่ยวกับเฟรมเวิร์กจำนวนมาก, ส่วนแบ็กเอนด์จัดการ ODT และ FictionBook"
 
 #. +> trunk6 stable6
 #: aboutdata.h:33
@@ -141,7 +144,7 @@ msgstr "งานอาร์ทเวิร์กของหมายเหต
 #: aboutdata.h:37
 #, kde-format
 msgid "Jiri Baum - NICTA"
-msgstr ""
+msgstr "Jiri Baum - NICTA"
 
 #. +> trunk6 stable6
 #: aboutdata.h:37
@@ -154,7 +157,7 @@ msgstr "เครื่องมือเลือก&ข้อความ"
 #: aboutdata.h:38
 #, kde-format
 msgid "Fabio D'Urso"
-msgstr ""
+msgstr "Fabio D'Urso"
 
 #. +> trunk6 stable6
 #: aboutdata.h:38
@@ -240,7 +243,7 @@ msgstr "จบการนำเสนอ"
 #: core/action.cpp:312
 #, kde-format
 msgid "Find…"
-msgstr ""
+msgstr "ค้นหา…"
 
 #. +> trunk6 stable6
 #: core/action.cpp:314
@@ -280,7 +283,7 @@ msgstr "เล่นภาพยนตร์..."
 #: core/action.cpp:556
 #, kde-format
 msgid "Stop movie"
-msgstr ""
+msgstr "หยุดเล่นภาพยนตร์"
 
 #. +> trunk6 stable6
 #: core/action.cpp:558
@@ -293,13 +296,13 @@ msgstr "เล่นภาพยนตร์..."
 #: core/action.cpp:560
 #, kde-format
 msgid "Resume movie"
-msgstr ""
+msgstr "เล่นภาพยนตร์ต่อ"
 
 #. +> trunk6 stable6
 #: core/audioplayer.cpp:315
 #, kde-format
 msgid "This Okular is built without audio support"
-msgstr ""
+msgstr "Okular ชุดนี้ไม่ได้ประกอบสร้างให้ใช้เสียงได้"
 
 #. +> trunk6 stable6
 #: core/chooseenginedialog.cpp:22
@@ -334,14 +337,14 @@ msgstr "ไปยังหน้าที่ %1"
 #, kde-format
 msgctxt "paper type and orientation (eg: Portrait A4)"
 msgid "Portrait %1"
-msgstr ""
+msgstr "แนวตั้ง %1"
 
 #. +> trunk6 stable6
 #: core/document.cpp:223
 #, kde-format
 msgctxt "paper type and orientation (eg: Portrait A4)"
 msgid "Landscape %1"
-msgstr ""
+msgstr "แนวนอน %1"
 
 #. +> trunk6 stable6
 #: core/document.cpp:246
@@ -363,18 +366,19 @@ msgstr "%1 x %2 ม.ม."
 #: core/document.cpp:1702
 #, kde-format
 msgid "Continuing search from beginning"
-msgstr ""
+msgstr "ค้าหาต่อไปตั้งแต่เริ่มต้น"
 
 #. +> trunk6 stable6
 #: core/document.cpp:1705
 #, kde-format
 msgid "Continuing search from bottom"
-msgstr ""
+msgstr "ค้นหาต่อไปจากท้าย"
 
 #. +> trunk6 stable6
 #: core/document.cpp:2421
 #, kde-format
-msgid "Can not find a plugin which is able to handle the document being passed."
+msgid ""
+"Can not find a plugin which is able to handle the document being passed."
 msgstr "ไม่พบส่วนเสริมที่จะใช้ในการจัดการกับเอกสารที่ส่งผ่านมาให้"
 
 #. +> trunk6 stable6
@@ -382,7 +386,7 @@ msgstr "ไม่พบส่วนเสริมที่จะใช้ใน
 #, kde-format
 msgctxt "Unsupported action"
 msgid "Signing not implemented for this document type"
-msgstr ""
+msgstr "ยังลงลายเซ็นบนเอกสารประเภทนี้ไม่ได้"
 
 #. +> trunk6 stable6
 #: core/document.cpp:3557
@@ -395,8 +399,12 @@ msgstr "การนำเสนอ"
 #. +> trunk6 stable6
 #: core/document.cpp:4149 core/document.cpp:4155
 #, kde-format
-msgid "The document is trying to execute an external application and, for your safety, Okular does not allow that."
-msgstr "เอกสารกำลังพยายามเรียกประมวลผลโปรแกรมภายนอก เพื่อความปลอดภัยของระบบคุณ โอกูลาร์ จะไม่อนุญาตให้มีการประมวลผล"
+msgid ""
+"The document is trying to execute an external application and, for your safety"
+", Okular does not allow that."
+msgstr ""
+"เอกสารกำลังพยายามเรียกประมวลผลโปรแกรมภายนอก เพื่อความปลอดภัยของระบบคุณ โอกูลาร"
+"์ จะไม่อนุญาตให้มีการประมวลผล"
 
 #. +> trunk6 stable6
 #: core/document.cpp:4165
@@ -455,14 +463,18 @@ msgstr "ไม่มีแฟ้มใดที่จะใช้ในการ
 #. +> trunk6 stable6
 #: core/document.cpp:4817
 #, kde-format
-msgid "Could not find a suitable binary for printing. Make sure CUPS lpr binary is available"
-msgstr "ไม่สามารถค้นพบแฟ้มโปรแกรมแบบไบนารีที่เหมาะสมสำหรับใช้ในการพิมพ์ โปรดตรวจสอบว่าโปรแกรม lpr ของแพกเกจ CUPS ได้ถูกติดตั้งไว้อย่างถูกต้องแล้วหรือไม่"
+msgid ""
+"Could not find a suitable binary for printing. Make sure CUPS lpr binary is av"
+"ailable"
+msgstr ""
+"ไม่สามารถค้นพบแฟ้มโปรแกรมแบบไบนารีที่เหมาะสมสำหรับใช้ในการพิมพ์ โปรดตรวจสอบว่า"
+"โปรแกรม lpr ของแพกเกจ CUPS ได้ถูกติดตั้งไว้อย่างถูกต้องแล้วหรือไม่"
 
 #. +> trunk6 stable6
 #: core/document.cpp:4819
 #, kde-format
 msgid "The page print size is invalid"
-msgstr ""
+msgstr "ขนาดหน้าที่จะพิมพ์ไม่ถูกต้อง"
 
 #. +> trunk6 stable6
 #: core/document.cpp:5493 part/part.cpp:1155
@@ -640,21 +652,21 @@ msgstr "คุณสมบัติหมายเหตุประกอบ"
 #, kde-format
 msgctxt "Edit a list form's choices"
 msgid "edit list form choices"
-msgstr ""
+msgstr "แก้ไขรายการจากตัวเลือก"
 
 #. +> trunk6 stable6
 #: core/documentcommands.cpp:528
 #, kde-format
 msgctxt "Edit a combo form's selection"
 msgid "edit combo form selection"
-msgstr ""
+msgstr "แก้ไขคอมโบจากส่วนที่เลือก"
 
 #. +> trunk6 stable6
 #: core/documentcommands.cpp:598
 #, kde-format
 msgctxt "Edit the state of a group of form buttons"
 msgid "edit form button states"
-msgstr ""
+msgstr "แก้ไขจากสถานะของปุ่ม"
 
 #. +> trunk6 stable6
 #: core/generator.cpp:790
@@ -694,13 +706,13 @@ msgstr "ตัวเลือกของเครื่องมือแก้
 #: core/printoptionswidget.cpp:23
 #, kde-format
 msgid "Fit to printable area"
-msgstr ""
+msgstr "ทำให้พอดีส่วนที่พิมพ์ได้"
 
 #. +> trunk6 stable6
 #: core/printoptionswidget.cpp:24
 #, kde-format
 msgid "Fit to full page"
-msgstr ""
+msgstr "ทำให้เต็มหน้าพอดี"
 
 #. +> trunk6 stable6
 #: core/printoptionswidget.cpp:25
@@ -727,8 +739,12 @@ msgstr "ไม่มีคำอธิบายอยู่"
 #: core/signatureutils.cpp:496
 #, kde-format
 msgctxt "%1 is a error code"
-msgid "Internal signing error. Please report a bug with the steps to reproduce it. Error code %1"
+msgid ""
+"Internal signing error. Please report a bug with the steps to reproduce it. Er"
+"ror code %1"
 msgstr ""
+"เกิดข้อผิดพลาดภายในในการเซ็น โปรดรายงานข้อผิดพลาดพร้อมขั้นตอนการทำซ้ำ รหัสข้อผ"
+"ิดพลาด %1"
 
 #. +> trunk6 stable6
 #: core/signatureutils.cpp:498
@@ -741,13 +757,13 @@ msgstr ""
 #: core/signatureutils.cpp:500
 #, kde-format
 msgid "Signing cancelled by user"
-msgstr ""
+msgstr "ผู้ใช้ยกเลิกการเซ็น"
 
 #. +> trunk6 stable6
 #: core/signatureutils.cpp:502
 #, kde-format
 msgid "Could not sign. Wrong passphrase"
-msgstr ""
+msgstr "ไม่สามารถเซ็นได้ วลีผ่านผิด"
 
 #. +> trunk6 stable6
 #: core/signatureutils.cpp:504
@@ -797,13 +813,13 @@ msgstr "ขนาดกระดาษ"
 #: gui/certificatemodel.cpp:43
 #, kde-format
 msgid "Issuer"
-msgstr ""
+msgstr "ผู้ออก"
 
 #. +> trunk6 stable6
 #: gui/certificatemodel.cpp:45 part/certificateviewer.cpp:75
 #, kde-format
 msgid "Issued On"
-msgstr ""
+msgstr "ออกเมื่อ"
 
 #. +> trunk6 stable6
 #: gui/certificatemodel.cpp:47 part/certificateviewer.cpp:76
@@ -824,7 +840,7 @@ msgstr "หัวข้อเรื่อง"
 #: gui/certificatemodel.cpp:51
 #, kde-format
 msgid "Public Key"
-msgstr ""
+msgstr "กุญแจสาธารณะ"
 
 #. +> trunk6 stable6
 #: gui/certificatemodel.cpp:53
@@ -844,7 +860,7 @@ msgstr "%1:"
 #: gui/certificatemodel.cpp:84
 #, kde-format
 msgid "%1 (%2 bits)"
-msgstr ""
+msgstr "%1 (%2 บิต)"
 
 #. +> trunk6 stable6
 #: gui/certificatemodel.cpp:146
@@ -857,7 +873,7 @@ msgstr "คุณ&สมบัติ"
 #: gui/certificatemodel.cpp:148
 #, kde-format
 msgid "Value"
-msgstr ""
+msgstr "ค่า"
 
 #. +> trunk6 stable6
 #: gui/guiutils.cpp:39 part/editannottooldialog.cpp:88
@@ -894,7 +910,7 @@ msgstr "สำหรับให้วิจารณ์"
 #: gui/guiutils.cpp:56 part/data/tools.xml:103
 #, kde-format
 msgid "Arrow"
-msgstr ""
+msgstr "ลูกศร"
 
 #. +> trunk6 stable6
 #: gui/guiutils.cpp:59
@@ -1076,14 +1092,14 @@ msgstr "จอภาพ:"
 #, kde-format
 msgctxt "Caption for a widget annotation"
 msgid "Widget"
-msgstr ""
+msgstr "วิดเจ็ต"
 
 #. +> trunk6 stable6
 #: gui/guiutils.cpp:134
 #, kde-format
 msgctxt "Caption for a rich media annotation"
 msgid "Rich Media"
-msgstr ""
+msgstr "ริชมีเดีย"
 
 #. +> trunk6 stable6
 #: gui/guiutils.cpp:144
@@ -1122,37 +1138,37 @@ msgstr "แฟ้มไม่ถูกบันทึก เนื่องจ�
 #: gui/signatureguiutils.cpp:42
 #, kde-format
 msgid "The signature is cryptographically valid."
-msgstr ""
+msgstr "ลายเซ็นมีความถูกต้องทางการเข้ารหัส"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:44
 #, kde-format
 msgid "The signature is cryptographically invalid."
-msgstr ""
+msgstr "ลายเซ็นมีความไม่ถูกต้องทางการเข้ารหัส"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:46
 #, kde-format
 msgid "Digest Mismatch occurred."
-msgstr ""
+msgstr "ผลการย่อยข้อมูลไม่ตรงกัน"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:48
 #, kde-format
 msgid "The signature CMS/PKCS7 structure is malformed."
-msgstr ""
+msgstr "โครงสร้าง CMS/PKCS7 ของลายเซ็นมีความผิดปกติ"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:50
 #, kde-format
 msgid "The requested signature is not present in the document."
-msgstr ""
+msgstr "ไม่พบลายเซ็นที่ร้องขอในเอกสาร"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:52
 #, kde-format
 msgid "The signature could not be verified."
-msgstr ""
+msgstr "ไม่สามารถตรวจสอบลายเซ็นได้"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:60
@@ -1165,7 +1181,7 @@ msgstr "ปรับแต่งเครื่องมือแสดง..."
 #: gui/signatureguiutils.cpp:62
 #, kde-format
 msgid "Certificate issuer isn't Trusted."
-msgstr ""
+msgstr "ผู้ออกใบรับรองไม่เป็นที่เชื่อถือ"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:64
@@ -1178,7 +1194,7 @@ msgstr "ปรับแต่งเครื่องมือแสดง..."
 #: gui/signatureguiutils.cpp:66
 #, kde-format
 msgid "Certificate has been Revoked."
-msgstr ""
+msgstr "ใบรับรองถูกเพิกถอนแล้ว"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:68
@@ -1191,61 +1207,61 @@ msgstr "ปรับแต่งเครื่องมือแสดง..."
 #: gui/signatureguiutils.cpp:70
 #, kde-format
 msgid "Certificate has not yet been verified."
-msgstr ""
+msgstr "ใบรับรองยังไม่ได้รับการตรวจสอบ"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:72
 #, kde-format
 msgid "Certificate validation in progress"
-msgstr ""
+msgstr "กำลังตรวจสอบความถูกต้องของใบรับรอง"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:74
 #, kde-format
 msgid "Unknown issue with Certificate or corrupted data."
-msgstr ""
+msgstr "เกิดปัญหาไม่ทราบสาเหตุกับใบรับรองหรือข้อมูลเสียหาย"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:82
 #, kde-format
 msgid "MD2"
-msgstr ""
+msgstr "MD2"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:84
 #, kde-format
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:86
 #, kde-format
 msgid "SHA1"
-msgstr ""
+msgstr "SHA1"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:88
 #, kde-format
 msgid "SHA256"
-msgstr ""
+msgstr "SHA256"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:90
 #, kde-format
 msgid "SHA384"
-msgstr ""
+msgstr "SHA384"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:92
 #, kde-format
 msgid "SHA512"
-msgstr ""
+msgstr "SHA512"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:94
 #, kde-format
 msgid "SHA224"
-msgstr ""
+msgstr "SHA224"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:96
@@ -1258,19 +1274,19 @@ msgstr "แบบอักษรที่ไม่รู้จัก"
 #: gui/signatureguiutils.cpp:104
 #, kde-format
 msgid "RSA"
-msgstr ""
+msgstr "RSA"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:106
 #, kde-format
 msgid "DSA"
-msgstr ""
+msgstr "DSA"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:108
 #, kde-format
 msgid "EC"
-msgstr ""
+msgstr "EC"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:110 gui/signatureguiutils.cpp:113
@@ -1283,31 +1299,31 @@ msgstr "แฟ้มที่ไม่รู้จัก"
 #: gui/signatureguiutils.cpp:120
 #, kde-format
 msgid "Digital Signature"
-msgstr ""
+msgstr "ลายเซ็นดิจิทัล"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:123
 #, kde-format
 msgid "Non-Repudiation"
-msgstr ""
+msgstr "ไม่สามารถปฏิเสธได้"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:126
 #, kde-format
 msgid "Encrypt Keys"
-msgstr ""
+msgstr "กุญแจเข้ารหัส"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:129
 #, kde-format
 msgid "Decrypt Keys"
-msgstr ""
+msgstr "กุญแจถอดรหัส"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:132
 #, kde-format
 msgid "Key Agreement"
-msgstr ""
+msgstr "การลงกันได้ของกุญแจ"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:135
@@ -1320,26 +1336,26 @@ msgstr "ปรับแต่งเครื่องมือแสดง..."
 #: gui/signatureguiutils.cpp:138
 #, kde-format
 msgid "Sign CRL"
-msgstr ""
+msgstr "เซ็น CRL"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:141
 #, kde-format
 msgid "Encrypt Only"
-msgstr ""
+msgstr "เข้ารหัสเท่านั้น"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:144
 #, kde-format
 msgid "No Usage Specified"
-msgstr ""
+msgstr "ไม่ระบุการใช้งาน"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:151
 #, kde-format
 msgctxt "Joins the various ways a signature key can be used in a longer string"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:165
@@ -1352,21 +1368,25 @@ msgstr "ไม่ได้รับการอนุญาตให้ทำก
 #: gui/signatureguiutils.cpp:168
 #, kde-format
 msgid ""
-"The revision of the document that was covered by this signature has not been modified;\n"
+"The revision of the document that was covered by this signature has not been m"
+"odified;\n"
 "however there have been subsequent changes to the document."
 msgstr ""
+"ฉบับเอกสารที่ครอบคลุมด้วยลายเซ็นนี้ยังไม่ถูกแก้ไข;\n"
+"อย่างไรก็ตาม มีการเปลี่ยนแปลงเอกสารในภายหลัง"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:172
 #, kde-format
-msgid "The document has been modified in a way not permitted by a previous signer."
-msgstr ""
+msgid ""
+"The document has been modified in a way not permitted by a previous signer."
+msgstr "เอกสารถูกแก้ไขในลักษณะที่ไม่ได้รับอนุญาตจากผู้เซ็นก่อนหน้า"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:174
 #, kde-format
 msgid "The document integrity verification could not be completed."
-msgstr ""
+msgstr "ไม่สามารถตรวจสอบความถูกต้องของเอกสารให้แล้วเสร็จได้"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:208
@@ -1387,14 +1407,17 @@ msgstr "ไม่ได้รับการอนุญาตให้ทำก
 #: gui/signatureguiutils.cpp:213
 #, fuzzy, kde-format
 #| msgid "Printing this document is not allowed."
-msgid "This document is digitally signed. There have been changes since last signed."
+msgid ""
+"This document is digitally signed. There have been changes since last signed."
 msgstr "ไม่ได้รับการอนุญาตให้ทำการพิมพ์เอกสารนี้"
 
 #. +> trunk6 stable6
 #: gui/signatureguiutils.cpp:216
 #, fuzzy, kde-format
 #| msgid "Printing this document is not allowed."
-msgid "This document is digitally signed. Some of the signatures could not be validated properly."
+msgid ""
+"This document is digitally signed. Some of the signatures could not be validat"
+"ed properly."
 msgstr "ไม่ได้รับการอนุญาตให้ทำการพิมพ์เอกสารนี้"
 
 #. +> trunk6 stable6
@@ -1409,19 +1432,19 @@ msgstr "คุณสมบัติ Caret"
 #: gui/signaturemodel.cpp:144 gui/signaturemodel.cpp:181
 #, kde-format
 msgid "Field: %1 on page %2"
-msgstr ""
+msgstr "ฟิลด์: %1 บนหน้า %2"
 
 #. +> trunk6 stable6
 #: gui/signaturemodel.cpp:152
 #, kde-format
 msgid "Rev. %1: Signed By %2"
-msgstr ""
+msgstr "ฉบับที่ %1: เซ็นโดย %2"
 
 #. +> trunk6 stable6
 #: gui/signaturemodel.cpp:167
 #, kde-format
 msgid "Signing Time: %1"
-msgstr ""
+msgstr "เวลาที่เซ็น: %1"
 
 #. +> trunk6 stable6
 #: gui/signaturemodel.cpp:172
@@ -1443,28 +1466,28 @@ msgstr "หมายเหตุประกอบ %1 แห่ง"
 #, kde-format
 msgctxt "Digital signature type"
 msgid "PGP Signature"
-msgstr ""
+msgstr "ลายเซ็น PGP"
 
 #. +> trunk6 stable6
 #: gui/signaturemodel.cpp:187
 #, kde-format
 msgctxt "Digital signature type"
 msgid "Adobe PKCS7"
-msgstr ""
+msgstr "Adobe PKCS7"
 
 #. +> trunk6 stable6
 #: gui/signaturemodel.cpp:189
 #, kde-format
 msgctxt "Digital signature type"
 msgid "Adobe PKCS7 Sha1"
-msgstr ""
+msgstr "Adobe PKCS7 Sha1"
 
 #. +> trunk6 stable6
 #: gui/signaturemodel.cpp:191
 #, kde-format
 msgctxt "Digital signature type"
 msgid "ETSI CAdES"
-msgstr ""
+msgstr "ETSI CAdES"
 
 #. +> trunk6 stable6
 #: gui/signaturemodel.cpp:193
@@ -1503,7 +1526,7 @@ msgstr "เ&รียกใหม่"
 #, kde-format
 msgctxt "@item:inlistbox Color name"
 msgid "Orange"
-msgstr ""
+msgstr "สีส้ม"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:150
@@ -1618,21 +1641,26 @@ msgstr ""
 #: part/annotationactionhandler.cpp:301
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Add the current annotation to the quick annotations menu (No annotation selected)"
+msgid ""
+"Add the current annotation to the quick annotations menu (No annotation select"
+"ed)"
 msgstr ""
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:302
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Constrain shape ratio to 1:1 or line angle to 15° steps (No annotation selected)"
+msgid ""
+"Constrain shape ratio to 1:1 or line angle to 15° steps (No annotation selecte"
+"d)"
 msgstr ""
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:303
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Advanced settings for the current annotation tool (No annotation selected)"
+msgid ""
+"Advanced settings for the current annotation tool (No annotation selected)"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1691,7 +1719,7 @@ msgstr "หมายเหตุประกอบ %1 แห่ง"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Annotation fill color (Current annotation has no fill color)"
-msgstr ""
+msgstr "สีเติมหมายเหตุประกอบ (หมายเหตุประกอบปัจจุบันไม่มีสีเติม)"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:328
@@ -1707,28 +1735,30 @@ msgstr "หมายเหตุประกอบ %1 แห่ง"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Annotation font (Current annotation has no font)"
-msgstr ""
+msgstr "แบบอักษรหมายเหตุประกอบ (หมายเหตุประกอบปัจจุบันไม่มีแบบอักษร)"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:334
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Constrain line angle to 15° steps"
-msgstr ""
+msgstr "จำกัดมุมเส้นเป็นขั้นละ 15°"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:336
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Constrain shape ratio to 1:1"
-msgstr ""
+msgstr "จำกัดอัตราส่วนรูปทรงเป็น 1:1"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:338
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Constrain shape ratio to 1:1 or line angle to 15° steps (Not supported by current annotation)"
-msgstr ""
+msgid ""
+"Constrain shape ratio to 1:1 or line angle to 15° steps (Not supported by curr"
+"ent annotation)"
+msgstr "จำกัดอัตราส่วนรูปทรงเป็น 1:1 หรือมุมเส้นเป็นขั้นละ 15° (ไม่รองรับโดยหมายเหตุประกอบปัจจุบัน)"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:341
@@ -1743,14 +1773,14 @@ msgstr "คุณสมบัติหมายเหตุประกอบ"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add the current annotation to the quick annotations menu"
-msgstr ""
+msgstr "เพิ่มหมายเหตุประกอบปัจจุบันไปยังเมนูหมายเหตุประกอบด่วน"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:343
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Advanced settings for the current annotation tool"
-msgstr ""
+msgstr "การตั้งค่าขั้นสูงสำหรับเครื่องมือหมายเหตุประกอบปัจจุบัน"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:432
@@ -1773,14 +1803,14 @@ msgstr "&สี:"
 #, kde-format
 msgctxt "@item:inlistbox Color name"
 msgid "Transparent"
-msgstr ""
+msgstr "โปร่งใส"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:445
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Custom Color…"
-msgstr ""
+msgstr "สีกำหนดเอง…"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:499
@@ -1803,7 +1833,7 @@ msgstr "หมายเหตุประกอบ %1 แห่ง"
 #, kde-format
 msgctxt "@action:intoolbar Hide the toolbar"
 msgid "Hide"
-msgstr ""
+msgstr "ซ่อน"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:554
@@ -1945,7 +1975,7 @@ msgstr "หมายเหตุประกอบ %1 แห่ง"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Choose an annotation tool from the quick annotations"
-msgstr ""
+msgstr "เลือกเครื่องมือหมายเหตุประกอบจากหมายเหตุประกอบด่วน"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:651
@@ -1960,14 +1990,17 @@ msgstr "หมายเหตุประกอบ %1 แห่ง"
 #, fuzzy, kde-format
 #| msgid "Annotation"
 #| msgid_plural "%1 Annotations"
-msgctxt "@action:intoolbar Add current annotation tool to the quick annotations list"
+msgctxt ""
+"@action:intoolbar Add current annotation tool to the quick annotations list"
 msgid "Add to Quick Annotations"
 msgstr "หมายเหตุประกอบ %1 แห่ง"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:668
 #, kde-format
-msgctxt "@action:intoolbar When checked keep the current annotation tool active after use"
+msgctxt ""
+"@action:intoolbar When checked keep the current annotation tool active after u"
+"se"
 msgid "Keep Active"
 msgstr ""
 
@@ -1977,14 +2010,16 @@ msgstr ""
 #| msgid "Presentation"
 msgctxt "@info:tooltip"
 msgid "Keep the annotation tool active after use"
-msgstr "การนำเสนอ"
+msgstr "คงเครื่องมือหมายเหตุประกอบให้ใช้งานต่อหลังจากใช้"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:674
 #, kde-format
-msgctxt "@action When checked, line annotations are constrained to 15° steps, shape annotations to 1:1 ratio"
+msgctxt ""
+"@action When checked, line annotations are constrained to 15° steps, shape ann"
+"otations to 1:1 ratio"
 msgid "Constrain Ratio and Angle of Annotation Tools"
-msgstr ""
+msgstr "จำกัดอัตราส่วนและมุมของเครื่องมือหมายเหตุประกอบ"
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:680
@@ -2022,7 +2057,9 @@ msgstr "ความ&ทึบแสง:"
 #: part/annotationactionhandler.cpp:696
 #, fuzzy, kde-format
 #| msgid "%1:"
-msgctxt "@item:inlistbox Annotation opacity percentage level, make sure to include %1 in your translation"
+msgctxt ""
+"@item:inlistbox Annotation opacity percentage level, make sure to include %1 i"
+"n your translation"
 msgid "%1%"
 msgstr "%1:"
 
@@ -2242,7 +2279,7 @@ msgstr "คุณสมบัติหมายเหตุประกอบ"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select a custom stamp symbol from file"
-msgstr ""
+msgstr "เลือกสัญลักษณ์ตราประทับกำหนดเองจากแฟ้ม"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:154
@@ -2256,22 +2293,23 @@ msgstr "ใส่สัญลักษณ์ตราประทับ"
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:154
 #, kde-format
-msgid "*.ico *.png *.xpm *.svg *.svgz | Icon Files (*.ico *.png *.xpm *.svg *.svgz)"
-msgstr ""
+msgid ""
+"*.ico *.png *.xpm *.svg *.svgz | Icon Files (*.ico *.png *.xpm *.svg *.svgz)"
+msgstr "*.ico *.png *.xpm *.svg *.svgz | แฟ้มไอคอน (*.ico *.png *.xpm *.svg *.svgz)"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:158
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not load the file <filename>%1</filename>"
-msgstr ""
+msgstr "ไม่สามารถโหลดแฟ้ม <filename>%1</filename>"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:158
 #, kde-format
 msgctxt "@title:window"
 msgid "Invalid file"
-msgstr ""
+msgstr "แฟ้มไม่ถูกต้อง"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:265
@@ -2360,7 +2398,7 @@ msgstr "&สี:"
 #: part/annotationwidgets.cpp:394
 #, kde-format
 msgid "&Align:"
-msgstr ""
+msgstr "&จัดแนว:"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:395
@@ -2374,7 +2412,7 @@ msgstr "หมุนไปทางซ้าย"
 #: part/annotationwidgets.cpp:396
 #, kde-format
 msgid "Center"
-msgstr ""
+msgstr "กึ่งกลาง"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:397
@@ -2388,7 +2426,7 @@ msgstr "หมุนไปทางขวา"
 #: part/annotationwidgets.cpp:405
 #, kde-format
 msgid "Border &width:"
-msgstr ""
+msgstr "ความ&กว้างขอบ:"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:414
@@ -2526,31 +2564,31 @@ msgstr "เส้น"
 #: part/annotationwidgets.cpp:509
 #, kde-format
 msgid "Square"
-msgstr ""
+msgstr "สี่เหลี่ยมจัตุรัส"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:510
 #, kde-format
 msgid "Circle"
-msgstr ""
+msgstr "วงกลม"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:511
 #, kde-format
 msgid "Diamond"
-msgstr ""
+msgstr "รูปเพชร"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:512
 #, kde-format
 msgid "Open Arrow"
-msgstr ""
+msgstr "ลูกศรเปิด"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:513
 #, kde-format
 msgid "Closed Arrow"
-msgstr ""
+msgstr "ลูกศรปิด"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:514
@@ -2602,7 +2640,7 @@ msgstr "ความยาวของเส้นส่วนขยาย:"
 #: part/annotationwidgets.cpp:547 part/annotationwidgets.cpp:691
 #, kde-format
 msgid "Enabled"
-msgstr ""
+msgstr "เปิดใช้งาน"
 
 #. +> trunk6 stable6
 #: part/annotationwidgets.cpp:551 part/annotationwidgets.cpp:695
@@ -2731,37 +2769,39 @@ msgid ""
 "This annotation may contain LaTeX code.\n"
 "Click here to render."
 msgstr ""
+"หมายเหตุประกอบนี้อาจมีโค้ด LaTeX\n"
+"คลิกที่นี่เพื่อแสดงผล"
 
 #. +> trunk6 stable6
 #: part/annotwindow.cpp:439
 #, kde-format
 msgid "Cannot find latex executable."
-msgstr ""
+msgstr "ไม่พบโปรแกรม latex ที่สามารถทำงานได้"
 
 #. +> trunk6 stable6
 #: part/annotwindow.cpp:439 part/annotwindow.cpp:444 part/annotwindow.cpp:449
 #: part/annotwindow.cpp:454
 #, kde-format
 msgid "LaTeX rendering failed"
-msgstr ""
+msgstr "การแสดงผล LaTeX ล้มเหลว"
 
 #. +> trunk6 stable6
 #: part/annotwindow.cpp:444
 #, kde-format
 msgid "Cannot find dvipng executable."
-msgstr ""
+msgstr "ไม่พบโปรแกรม dvipng ที่สามารถทำงานได้"
 
 #. +> trunk6 stable6
 #: part/annotwindow.cpp:449
 #, kde-format
 msgid "A problem occurred during the execution of the 'latex' command."
-msgstr ""
+msgstr "เกิดปัญหาระหว่างการประมวลผลคำสั่ง 'latex'"
 
 #. +> trunk6 stable6
 #: part/annotwindow.cpp:454
 #, kde-format
 msgid "A problem occurred during the execution of the 'dvipng' command."
-msgstr ""
+msgstr "เกิดปัญหาระหว่างการประมวลผลคำสั่ง 'dvipng'"
 
 #. +> trunk6 stable6
 #: part/bookmarklist.cpp:116
@@ -2805,13 +2845,13 @@ msgstr "&ค้นหา:"
 #: part/bookmarklist.cpp:261 part/bookmarklist.cpp:295 part/part.cpp:3176
 #, kde-format
 msgid "Expand All"
-msgstr ""
+msgstr "ขยายทั้งหมด"
 
 #. +> trunk6 stable6
 #: part/bookmarklist.cpp:262 part/bookmarklist.cpp:296 part/part.cpp:3177
 #, kde-format
 msgid "Collapse All"
-msgstr ""
+msgstr "ยุบทั้งหมด"
 
 #. +> trunk6 stable6
 #: part/bookmarklist.cpp:263
@@ -2863,67 +2903,67 @@ msgstr "ค่าทั่วไป"
 #: part/certificateviewer.cpp:58
 #, kde-format
 msgid "Issued By"
-msgstr ""
+msgstr "ออกโดย"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:61 part/certificateviewer.cpp:68
 #, kde-format
 msgid "Common Name(CN)"
-msgstr ""
+msgstr "ชื่อสามัญ (CN)"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:62 part/certificateviewer.cpp:69
 #, kde-format
 msgid "EMail"
-msgstr ""
+msgstr "อีเมล"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:63 part/certificateviewer.cpp:70
 #, kde-format
 msgid "Organization(O)"
-msgstr ""
+msgstr "องค์กร (O)"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:65
 #, kde-format
 msgid "Issued To"
-msgstr ""
+msgstr "ออกให้"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:72
 #, kde-format
 msgid "Validity"
-msgstr ""
+msgstr "ความถูกต้อง"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:78
 #, kde-format
 msgid "Fingerprints"
-msgstr ""
+msgstr "ลายนิ้วมือ"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:87
 #, kde-format
 msgid "SHA-1 Fingerprint"
-msgstr ""
+msgstr "ลายนิ้วมือ SHA-1"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:88
 #, kde-format
 msgid "SHA-256 Fingerprint"
-msgstr ""
+msgstr "ลายนิ้วมือ SHA-256"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:106
 #, kde-format
 msgid "Details"
-msgstr ""
+msgstr "รายละเอียด"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:107
 #, kde-format
 msgid "Certificate Data:"
-msgstr ""
+msgstr "ข้อมูลใบรับรอง:"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:159
@@ -2936,7 +2976,7 @@ msgstr "คุณต้องการจะบันทึก %1 ไปยั�
 #: part/certificateviewer.cpp:160
 #, kde-format
 msgid "Certificate File (*.cer)"
-msgstr ""
+msgstr "แฟ้มใบรับรอง (*.cer)"
 
 #. +> trunk6 stable6
 #: part/certificateviewer.cpp:163
@@ -3013,28 +3053,28 @@ msgstr "กลับค่าสีต่าง ๆ"
 #, kde-format
 msgctxt "@item:inmenu color mode"
 msgid "Invert L&uma (sRGB Linear)"
-msgstr ""
+msgstr "กลับค่าความสว่าง (sRGB Linear)"
 
 #. +> trunk6 stable6
 #: part/colormodemenu.cpp:55
 #, kde-format
 msgctxt "@item:inmenu color mode"
 msgid "Invert Luma (&Symmetric)"
-msgstr ""
+msgstr "กลับค่าความสว่าง (สมมาตร)"
 
 #. +> trunk6 stable6
 #: part/colormodemenu.cpp:58
 #, kde-format
 msgctxt "@item:inmenu color mode"
 msgid "Shift Hue P&ositive"
-msgstr ""
+msgstr "เลื่อนโทนสีไปทางบวก"
 
 #. +> trunk6 stable6
 #: part/colormodemenu.cpp:61
 #, kde-format
 msgctxt "@item:inmenu color mode"
 msgid "Shift Hue N&egative"
-msgstr ""
+msgstr "เลื่อนโทนสีไปทางลบ"
 
 #. i18n: tag tool attribute name
 #. +> trunk6 stable6
@@ -3057,7 +3097,7 @@ msgstr "จอภาพ:"
 #: part/data/drawingtools.xml:21
 #, kde-format
 msgid "Blue"
-msgstr ""
+msgstr "สีน้ำเงิน"
 
 #. i18n: tag tool attribute name
 #. +> trunk6 stable6
@@ -3072,14 +3112,14 @@ msgstr "อนุญาต"
 #: part/data/drawingtools.xml:31
 #, kde-format
 msgid "Black"
-msgstr ""
+msgstr "สีดำ"
 
 #. i18n: tag tool attribute name
 #. +> trunk6 stable6
 #: part/data/drawingtools.xml:36
 #, kde-format
 msgid "White"
-msgstr ""
+msgstr "สีขาว"
 
 #. i18n: tag tool attribute name
 #. +> trunk6 stable6
@@ -3172,28 +3212,28 @@ msgstr "กลับค่าสีต่าง ๆ"
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Invert luma (sRGB linear)"
-msgstr ""
+msgstr "กลับค่าความสว่าง (sRGB linear)"
 
 #. +> trunk6 stable6
 #: part/dlgaccessibility.cpp:66
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Invert luma (symmetric)"
-msgstr ""
+msgstr "กลับค่าความสว่าง (สมมาตร)"
 
 #. +> trunk6 stable6
 #: part/dlgaccessibility.cpp:67
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Shift hue positive"
-msgstr ""
+msgstr "เลื่อนโทนสีไปทางบวก"
 
 #. +> trunk6 stable6
 #: part/dlgaccessibility.cpp:68
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, accessibility page"
 msgid "Shift hue negative"
-msgstr ""
+msgstr "เลื่อนโทนสีไปทางลบ"
 
 #. +> trunk6 stable6
 #: part/dlgaccessibility.cpp:70
@@ -3248,7 +3288,7 @@ msgstr "ความเปรียบต่าง:"
 #, kde-format
 msgctxt "@label:listbox Config dialog, accessibility page"
 msgid "Text-to-speech engine:"
-msgstr ""
+msgstr "เครื่องมือแปลงข้อความเป็นเสียง:"
 
 #. +> trunk6 stable6
 #: part/dlgaccessibility.cpp:165
@@ -3298,14 +3338,21 @@ msgstr "ผู้เ&ขียน:"
 #, fuzzy, kde-format
 #| msgid "<b>Note</b>: the information here is used only for comments and reviews. Information inserted here will not be transmitted without your knowledge."
 msgctxt "@info Config dialog, annotations page"
-msgid "<b>Note:</b> the information here is used only for annotations. The information is saved in annotated documents, and so will be transmitted together with the document."
-msgstr "<b>ข้อควรจำ</b>: ข้อมูลในส่วนนี้จะถูกใช้ในการทำหมายเหตุและการตรวจทานเท่านั้น ข้อมูลที่ถูกแทรกที่นี่จะไม่มีการส่งถ่ายข้อมูลโดยที่คุณไม่ได้รับรู้"
+msgid ""
+"<b>Note:</b> the information here is used only for annotations. The informatio"
+"n is saved in annotated documents, and so will be transmitted together with th"
+"e document."
+msgstr ""
+"<b>ข้อควรจำ</b>: ข้อมูลในส่วนนี้จะถูกใช้ในการทำหมายเหตุและการตรวจทานเท่านั้น ข"
+"้อมูลที่ถูกแทรกที่นี่จะไม่มีการส่งถ่ายข้อมูลโดยที่คุณไม่ได้รับรู้"
 
 #. +> trunk6 stable6
 #: part/dlgannotations.cpp:48
 #, fuzzy, kde-format
 #| msgid "Annotation Properties"
-msgctxt "@label Config dialog, annotations page, heading line for Quick Annotations tool manager"
+msgctxt ""
+"@label Config dialog, annotations page, heading line for Quick Annotations too"
+"l manager"
 msgid "<h3>Quick Annotation Tools</h3>"
 msgstr "คุณสมบัติหมายเหตุประกอบ"
 
@@ -3315,8 +3362,11 @@ msgstr "คุณสมบัติหมายเหตุประกอบ"
 #| msgctxt "@info:whatsthis"
 #| msgid "Choose the editor you want to launch when Okular wants to open a source file."
 msgctxt "@info:whatsthis Config dialog, editor page"
-msgid "Choose the editor you want to launch when Okular wants to open a source file."
-msgstr "เลือกเครื่องมือแก้ไขที่คุณต้องการเรียกใช้เมื่อโอกูลาร์ต้องการจะเปิดแฟ้มต้นฉบับ"
+msgid ""
+"Choose the editor you want to launch when Okular wants to open a source file."
+msgstr ""
+"เลือกเครื่องมือแก้ไขที่คุณต้องการเรียกใช้เมื่อโอกูลาร์ต้องการจะเปิดแฟ้มต้นฉบับ"
+"เลือกเครื่องมือแก้ไขที่คุณต้องการเรียกใช้เมื่อโอกูลาร์ต้องการจะเปิดแฟ้มต้นฉบับ"
 
 #. +> trunk6 stable6
 #: part/dlgeditor.cpp:29
@@ -3377,14 +3427,14 @@ msgstr "ไคลเอนต์ Lyx"
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, editor page"
 msgid "TeXstudio"
-msgstr ""
+msgstr "TeXstudio"
 
 #. +> trunk6 stable6
 #: part/dlgeditor.cpp:36
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, editor page"
 msgid "TeXiFy IDEA"
-msgstr ""
+msgstr "TeXiFy IDEA"
 
 #. +> trunk6 stable6
 #: part/dlgeditor.cpp:37
@@ -3414,7 +3464,8 @@ msgid ""
 "\n"
 "</ul>"
 "\n"
-"If %f is not specified, then the file name is appended to the specified command."
+"If %f is not specified, then the file name is appended to the specified comman"
+"d."
 msgstr ""
 "<qt>ตั้งค่าคำสั่งของเครื่องมือแก้ไขข้อความที่กำหนดเอง<br />"
 "\n"
@@ -3446,7 +3497,7 @@ msgstr "คำสั่ง:"
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Use smooth scrolling"
-msgstr ""
+msgstr "ใช้การเลื่อนแบบนุ่มนวล"
 
 #. +> trunk6 stable6
 #: part/dlggeneral.cpp:37
@@ -3536,14 +3587,14 @@ msgstr "คุณลักษณะต่าง ๆ ของโปรแกร�
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Open new files in tabs"
-msgstr ""
+msgstr "เปิดแฟ้มใหม่ในแท็บ"
 
 #. +> trunk6 stable6
 #: part/dlggeneral.cpp:126
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Switch to existing tab if file is already open"
-msgstr ""
+msgstr "สลับไปยังแท็บที่มีอยู่หากแฟ้มถูกเปิดอยู่แล้ว"
 
 #. +> trunk6 stable6
 #: part/dlggeneral.cpp:139
@@ -3574,49 +3625,49 @@ msgstr "แสดงกล่องสำหรับเลือกแบ็ก
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Right to left reading direction"
-msgstr ""
+msgstr "ทิศทางการอ่านจากขวาไปซ้าย"
 
 #. +> trunk6 stable6
 #: part/dlggeneral.cpp:168
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Use file information to determine whether to open in continuous mode by default"
-msgstr ""
+msgstr "ใช้ข้อมูลแฟ้มเพื่อพิจารณาว่าจะเปิดในโหมดต่อเนื่องเป็นค่าปริยายหรือไม่"
 
 #. +> trunk6 stable6
 #: part/dlggeneral.cpp:178
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "For files without file information, open in continuous mode by default"
-msgstr ""
+msgstr "สำหรับแฟ้มที่ไม่มีข้อมูลแฟ้ม ให้เปิดในโหมดต่อเนื่องเป็นค่าปริยาย"
 
 #. +> trunk6 stable6
 #: part/dlggeneral.cpp:180
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Open in continuous mode by default"
-msgstr ""
+msgstr "เปิดในโหมดต่อเนื่องเป็นค่าปริยาย"
 
 #. +> trunk6
 #: part/dlggeneral.cpp:188
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "Continue from last viewed page"
-msgstr ""
+msgstr "ทำต่อจากหน้าที่ดูครั้งล่าสุด"
 
 #. +> trunk6 stable6
 #: part/dlggeneral.cpp:195
 #, kde-format
 msgctxt "@option:check Config dialog, general page"
 msgid "When using Browse Tool, wrap cursor at screen edges"
-msgstr ""
+msgstr "เมื่อใช้เครื่องมือดูเอกสาร ให้เลื่อนเคอร์เซอร์ไปที่ขอบจอ"
 
 #. +> trunk6 stable6
 #: part/dlggeneral.cpp:203
 #, kde-format
 msgctxt "@label:spinbox Config dialog, general page"
 msgid "Items in recent history:"
-msgstr ""
+msgstr "รายการในประวัติล่าสุด:"
 
 #. +> trunk6 stable6
 #: part/dlggeneral.cpp:218
@@ -3638,7 +3689,9 @@ msgstr "%1:"
 #: part/dlggeneral.cpp:226
 #, kde-format
 msgctxt "@info:tooltip Config dialog, general page"
-msgid "Defines how much of the current viewing area will still be visible when pressing the Page Up/Down keys."
+msgid ""
+"Defines how much of the current viewing area will still be visible when pressi"
+"ng the Page Up/Down keys."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3661,7 +3714,7 @@ msgstr "%1:"
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, general page, default zoom"
 msgid "100%"
-msgstr ""
+msgstr "100%"
 
 #. +> trunk6 stable6
 #: part/dlggeneral.cpp:238
@@ -3697,7 +3750,9 @@ msgstr ""
 #: part/dlggeneral.cpp:242
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, general page, default zoom"
-msgid "Defines the default zoom mode for files which were never opened before. For files which were opened before the previous zoom is applied."
+msgid ""
+"Defines the default zoom mode for files which were never opened before. For fi"
+"les which were opened before the previous zoom is applied."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3799,22 +3854,35 @@ msgstr "เปิดใช้รูปแบบการเปลี่ยนห
 #. +> trunk6 stable6
 #: part/dlgperformance.cpp:77
 #, kde-format
-msgid "Keeps used memory as low as possible. Do not reuse anything. (For systems with low memory.)"
-msgstr "ใช้หน่วยความจำให้น้อยที่สุดเท่าที่จะทำได้ โดยไม่มีการใช้สิ่งใด ๆ ใหม่อีกครั้ง (เหมาะสำหรับระบบที่มีหน่วยความจำน้อย)"
+msgid ""
+"Keeps used memory as low as possible. Do not reuse anything. (For systems with"
+" low memory.)"
+msgstr ""
+"ใช้หน่วยความจำให้น้อยที่สุดเท่าที่จะทำได้ โดยไม่มีการใช้สิ่งใด ๆ ใหม่อีกครั้ง "
+"(เหมาะสำหรับระบบที่มีหน่วยความจำน้อย)"
 
 #. +> trunk6 stable6
 #: part/dlgperformance.cpp:80
 #, fuzzy, kde-format
 #| msgid "A good compromise between memory usage and speed gain. Preload next page and boost searches. (For systems with 256MB of memory, typically.)"
-msgid "A good compromise between memory usage and speed gain. Preload next page and boost searches. (For systems with 2GB of memory, typically.)"
-msgstr "เป็นค่าที่เหมาะสมระหว่างการใช้หน่วยความจำและความเร็วในการทำงาน ทั้งการเรียกหน้าถัดไปล่วงหน้าและเพิ่มความเร็วในการค้นหา (เหมาะกับระบบที่มีหน่วยความจำตั้งแต่ 256 เมกะไบต์ขึ้นไป)"
+msgid ""
+"A good compromise between memory usage and speed gain. Preload next page and b"
+"oost searches. (For systems with 2GB of memory, typically.)"
+msgstr ""
+"เป็นค่าที่เหมาะสมระหว่างการใช้หน่วยความจำและความเร็วในการทำงาน ทั้งการเรียกหน้"
+"าถัดไปล่วงหน้าและเพิ่มความเร็วในการค้นหา (เหมาะกับระบบที่มีหน่วยความจำตั้งแต่ "
+"256 เมกะไบต์ขึ้นไป)"
 
 #. +> trunk6 stable6
 #: part/dlgperformance.cpp:83
 #, fuzzy, kde-format
 #| msgid "Keeps everything in memory. Preload next pages. Boost searches. (For systems with more than 512MB of memory.)"
-msgid "Keeps everything in memory. Preload next pages. Boost searches. (For systems with more than 4GB of memory.)"
-msgstr "เก็บทุกอย่างไว้ในหน่วยความจำ ทั้งการเรียกหน้าถัดไปล่วงหน้า การเพิ่มความเร็วในการค้นหา (เหมาะสำหรับระบบที่มีหน่วยความจำมากกว่า 512 เมกะไบต์)"
+msgid ""
+"Keeps everything in memory. Preload next pages. Boost searches. (For systems w"
+"ith more than 4GB of memory.)"
+msgstr ""
+"เก็บทุกอย่างไว้ในหน่วยความจำ ทั้งการเรียกหน้าถัดไปล่วงหน้า การเพิ่มความเร็วในก"
+"ารค้นหา (เหมาะสำหรับระบบที่มีหน่วยความจำมากกว่า 512 เมกะไบต์)"
 
 #. +> trunk6 stable6
 #: part/dlgperformance.cpp:87
@@ -4110,7 +4178,8 @@ msgstr ""
 #: part/dlgpresentation.cpp:137
 #, fuzzy, kde-format
 #| msgid "Drawing"
-msgctxt "@label Config dialog, presentation page, heading line for drawing tool manager"
+msgctxt ""
+"@label Config dialog, presentation page, heading line for drawing tool manager"
 msgid "<h3>Drawing Tools</h3>"
 msgstr "การวาด"
 
@@ -4137,14 +4206,19 @@ msgstr "จอภาพปริยาย"
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox %1 is the screen number (0, 1, ...)"
 #| msgid "Screen %1"
-msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen. %1 is the screen number (0, 1, ...). %2 is the screen manufacturer name. %3 is the screen model name. %4 is the screen name like DVI-0"
+msgctxt ""
+"@item:inlistbox Config dialog, presentation page, preferred screen. %1 is the "
+"screen number (0, 1, ...). %2 is the screen manufacturer name. %3 is the scree"
+"n model name. %4 is the screen name like DVI-0"
 msgid "Screen %1 (%2 %3 %4)"
 msgstr "จอภาพ %1"
 
 #. +> trunk6 stable6
 #: part/dlgpresentation.cpp:190
 #, kde-format
-msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen. %1 is the screen number (0, 1, ...), hopefully not 0."
+msgctxt ""
+"@item:inlistbox Config dialog, presentation page, preferred screen. %1 is the "
+"screen number (0, 1, ...), hopefully not 0."
 msgid "Screen %1 (disconnected)"
 msgstr ""
 
@@ -4844,7 +4918,9 @@ msgstr ""
 #: part/pageview.cpp:4157
 #, fuzzy, kde-format
 #| msgid "%1:"
-msgctxt "Zoom percentage value %1 will be replaced by the actual zoom factor value, so make sure you include it in your translation in order to not to break anything"
+msgctxt ""
+"Zoom percentage value %1 will be replaced by the actual zoom factor value, so "
+"make sure you include it in your translation in order to not to break anything"
 msgid "%1%"
 msgstr "%1:"
 
@@ -4928,7 +5004,9 @@ msgstr "เลือกข้อความ"
 #: part/pageview.cpp:5222
 #, fuzzy, kde-format
 #| msgid "Draw a rectangle around the text/graphics to copy."
-msgid "Draw a rectangle around the table, then click near edges to divide up; press Esc to clear."
+msgid ""
+"Draw a rectangle around the table, then click near edges to divide up; press E"
+"sc to clear."
 msgstr "วาดสี่เหลี่ยมรอบข้อความ/ภาพกราฟิกที่ต้องการจะคัดลอก"
 
 #. +> trunk6 stable6
@@ -4972,7 +5050,8 @@ msgstr "ปรับแต่งเครื่องมือแสดง..."
 #, kde-format
 msgid ""
 "There are no available signing certificates.<br/>"
-"For more information, please see the section about <a href=\"%1\">Adding Digital Signatures</a> in the manual."
+"For more information, please see the section about <a href=\"%1\">Adding Digit"
+"al Signatures</a> in the manual."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5019,7 +5098,10 @@ msgstr ""
 #: part/pageviewannotator.cpp:489
 #, kde-kuit-format
 msgctxt "@info"
-msgid "A signature of this size may be too small to read. If you would like to create a potentially more readable signature, press <interface>Start over</interface> and draw a bigger rectangle."
+msgid ""
+"A signature of this size may be too small to read. If you would like to create"
+" a potentially more readable signature, press <interface>Start over</interface"
+"> and draw a bigger rectangle."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5238,20 +5320,28 @@ msgstr "หมายเหตุประกอบ %1 แห่ง"
 #: part/part.cpp:451
 #, kde-format
 msgid ""
-"This document contains annotations or form data that were saved internally by a previous Okular version. Internal storage is <b>no longer supported</b>.<br/>"
-"Please save to a file in order to move them if you want to continue to edit the document."
+"This document contains annotations or form data that were saved internally by "
+"a previous Okular version. Internal storage is <b>no longer supported</b>.<br/"
+">"
+"Please save to a file in order to move them if you want to continue to edit th"
+"e document."
 msgstr ""
 
 #. +> trunk6 stable6
 #: part/part.cpp:459
 #, kde-format
-msgid "This document has embedded files. <a href=\"okular:/embeddedfiles\">Click here to see them</a> or go to File -> Embedded Files."
-msgstr "เอกสารนี้มีการแนบแฟ้มไว้ภายในด้วย <a href=\"okular:/embeddedfiles\">คลิกที่นี่เพื่อดูแฟ้มแนบ</a> หรือเรียกเมนู แฟ้ม -> แฟ้มที่แนบมาด้วย"
+msgid ""
+"This document has embedded files. <a href=\"okular:/embeddedfiles\">Click here"
+" to see them</a> or go to File -> Embedded Files."
+msgstr ""
+"เอกสารนี้มีการแนบแฟ้มไว้ภายในด้วย <a href=\"okular:/embeddedfiles\">คลิกที่นี่"
+"เพื่อดูแฟ้มแนบ</a> หรือเรียกเมนู แฟ้ม -> แฟ้มที่แนบมาด้วย"
 
 #. +> trunk6 stable6
 #: part/part.cpp:488
 #, kde-format
-msgid "Signing in progress. You can adjust the position and size of the signature"
+msgid ""
+"Signing in progress. You can adjust the position and size of the signature"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5518,7 +5608,8 @@ msgstr "การนำเสนอ"
 #: part/part.cpp:1132
 #, kde-format
 msgid ""
-"You have just modified the open document, but this kind of document can not be saved.\n"
+"You have just modified the open document, but this kind of document can not be"
+" saved.\n"
 "Any modification will be lost once Okular is closed."
 msgstr ""
 
@@ -5564,8 +5655,12 @@ msgstr "ปรับแต่งแบ็กเอนด์ต่าง ๆ"
 #. +> trunk6 stable6
 #: part/part.cpp:1346
 #, kde-format
-msgid "The program \"ps2pdf\" was not found, so Okular can not import PS files using it."
-msgstr "ไม่พบโปรแกรม \"ps2pdf\" ดังนั้น โอกูลาร์จะไม่สามารถนำเข้าแฟ้มเอกสาร PS เพื่อใช้งานได้"
+msgid ""
+"The program \"ps2pdf\" was not found, so Okular can not import PS files using "
+"it."
+msgstr ""
+"ไม่พบโปรแกรม \"ps2pdf\" ดังนั้น โอกูลาร์จะไม่สามารถนำเข้าแฟ้มเอกสาร PS เพื่อใช"
+"้งานได้"
 
 #. +> trunk6 stable6
 #: part/part.cpp:1346
@@ -5615,13 +5710,19 @@ msgstr ""
 #. +> trunk6 stable6
 #: part/part.cpp:1642
 #, kde-format
-msgid "This document has forms. Click on the button to interact with them, or use View -> Show Forms."
-msgstr "เอกสารนี้เป็นแบบฟอร์ม คลิกบนปุ่มเพื่อใช้งานมัน หรือใช้เมนู มุมมอง -> แสดงแบบฟอร์ม"
+msgid ""
+"This document has forms. Click on the button to interact with them, or use Vie"
+"w -> Show Forms."
+msgstr ""
+"เอกสารนี้เป็นแบบฟอร์ม คลิกบนปุ่มเพื่อใช้งานมัน หรือใช้เมนู มุมมอง -> แสดงแบบฟอ"
+"ร์ม"
 
 #. +> trunk6 stable6
 #: part/part.cpp:1658
 #, kde-format
-msgid "All editing and interactive features for this document are disabled. Please save a copy and reopen to edit this document."
+msgid ""
+"All editing and interactive features for this document are disabled. Please sa"
+"ve a copy and reopen to edit this document."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5663,7 +5764,9 @@ msgstr "ไม่สามารถเปิด %1 ได้"
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"The file <filename>%1</filename> has unsaved changes but has been modified by another program. Reloading it will replace the unsaved changes with the changes made in the other program.<nl/>"
+"The file <filename>%1</filename> has unsaved changes but has been modified by "
+"another program. Reloading it will replace the unsaved changes with the change"
+"s made in the other program.<nl/>"
 "<nl/>"
 "Do you want to continue reloading the file?"
 msgstr ""
@@ -5692,7 +5795,9 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"The file <filename>%1</filename> has unsaved changes but has been modified by another program. Closing it will replace the unsaved changes with the changes made in the other program.<nl/>"
+"The file <filename>%1</filename> has unsaved changes but has been modified by "
+"another program. Closing it will replace the unsaved changes with the changes "
+"made in the other program.<nl/>"
 "<nl/>"
 "Do you want to continue closing the file?"
 msgstr ""
@@ -5726,14 +5831,22 @@ msgstr "เปิดเอกสาร"
 #. +> trunk6 stable6
 #: part/part.cpp:2025
 #, kde-format
-msgid "This link points to a close document action that does not work when using the embedded viewer."
-msgstr "การเชื่อมโยงนี้ชี้ไปยังการเรียกส่วนปิดเอกสาร ซึ่งจะไม่ทำงานเมื่อใช้งานร่วมกับเครื่องมือแสดงผลแบบฝังตัว"
+msgid ""
+"This link points to a close document action that does not work when using the "
+"embedded viewer."
+msgstr ""
+"การเชื่อมโยงนี้ชี้ไปยังการเรียกส่วนปิดเอกสาร ซึ่งจะไม่ทำงานเมื่อใช้งานร่วมกับเ"
+"ครื่องมือแสดงผลแบบฝังตัว"
 
 #. +> trunk6 stable6
 #: part/part.cpp:2031
 #, kde-format
-msgid "This link points to a quit application action that does not work when using the embedded viewer."
-msgstr "การเชื่อมโยงนี้ชี้ไปยังการเรียกส่วนจบโปรแกรม ซึ่งจะไม่ทำงานเมื่อใช้งานร่วมกับเครื่องมือแสดงผลแบบฝังตัว"
+msgid ""
+"This link points to a quit application action that does not work when using th"
+"e embedded viewer."
+msgstr ""
+"การเชื่อมโยงนี้ชี้ไปยังการเรียกส่วนจบโปรแกรม ซึ่งจะไม่ทำงานเมื่อใช้งานร่วมกับเ"
+"ครื่องมือแสดงผลแบบฝังตัว"
 
 #. +> trunk6 stable6
 #: part/part.cpp:2123 part/part.cpp:2141
@@ -5805,7 +5918,9 @@ msgstr "บัน&ทึกเป็น..."
 #. +> trunk6 stable6
 #: part/part.cpp:2636
 #, kde-format
-msgid "You have chosen to save an Okular Archive without the file name ending with the '%1' extension. That is not allowed, do you want to choose a new name?"
+msgid ""
+"You have chosen to save an Okular Archive without the file name ending with th"
+"e '%1' extension. That is not allowed, do you want to choose a new name?"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5826,7 +5941,10 @@ msgstr ""
 #: part/part.cpp:2681
 #, kde-kuit-format
 msgctxt "@info"
-msgid "The file <filename>%1</filename> has been modified by another program. If you save now, any changes made in the other program will be lost. Are you sure you want to continue?"
+msgid ""
+"The file <filename>%1</filename> has been modified by another program. If you "
+"save now, any changes made in the other program will be lost. Are you sure you"
+" want to continue?"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5846,7 +5964,8 @@ msgstr ""
 #, kde-format
 msgid ""
 "The current document is protected with a password.<br />"
-"In order to save, the file needs to be reloaded. You will be asked for the password again and your undo/redo history will be lost.<br />"
+"In order to save, the file needs to be reloaded. You will be asked for the pas"
+"sword again and your undo/redo history will be lost.<br />"
 "Do you want to continue?"
 msgstr ""
 
@@ -5861,14 +5980,17 @@ msgstr "ไม่สามารถเปิดแฟ้มชั่วครา
 #, fuzzy, kde-kuit-format
 #| msgid "File could not be saved in '%1'. Try to save it to another location."
 msgctxt "@info"
-msgid "Could not overwrite <filename>%1</filename> because that file is read-only. Try saving to another location or changing that file's permissions."
+msgid ""
+"Could not overwrite <filename>%1</filename> because that file is read-only. Tr"
+"y saving to another location or changing that file's permissions."
 msgstr "ไม่สามารถบันทึกแฟ้มไว้ใน '%1' ได้ ลองบันทึกมันไว้ในที่อื่น ๆ"
 
 #. +> trunk6 stable6
 #: part/part.cpp:2754
 #, kde-format
 msgid ""
-"After saving, the current document format requires the file to be reloaded. Your undo/redo history will be lost.<br />"
+"After saving, the current document format requires the file to be reloaded. Yo"
+"ur undo/redo history will be lost.<br />"
 "Do you want to continue?"
 msgstr ""
 
@@ -5895,7 +6017,10 @@ msgstr "การนำเสนอ"
 #. +> trunk6 stable6
 #: part/part.cpp:2790
 #, kde-format
-msgid "You are about to save changes, but the current file format does not support saving the following elements. Please use the <i>Okular document archive</i> format to preserve them."
+msgid ""
+"You are about to save changes, but the current file format does not support sa"
+"ving the following elements. Please use the <i>Okular document archive</i> for"
+"mat to preserve them."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5913,13 +6038,21 @@ msgstr ""
 #. +> trunk6 stable6
 #: part/part.cpp:2807
 #, kde-format
-msgid "You are about to save changes, but the current file format does not support saving the following elements. Please use the <i>Okular document archive</i> format to preserve them. Click <i>Continue</i> to save the document and discard these elements."
+msgid ""
+"You are about to save changes, but the current file format does not support sa"
+"ving the following elements. Please use the <i>Okular document archive</i> for"
+"mat to preserve them. Click <i>Continue</i> to save the document and discard t"
+"hese elements."
 msgstr ""
 
 #. +> trunk6 stable6
 #: part/part.cpp:2810
 #, kde-format
-msgid "You are about to save changes, but the current file format does not support saving the following elements. Please use the <i>Okular document archive</i> format to preserve them. Click <i>Continue</i> to save, but you will lose these elements as well as the undo/redo history."
+msgid ""
+"You are about to save changes, but the current file format does not support sa"
+"ving the following elements. Please use the <i>Okular document archive</i> for"
+"mat to preserve them. Click <i>Continue</i> to save, but you will lose these e"
+"lements as well as the undo/redo history."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5933,7 +6066,7 @@ msgstr "ต่อเ&นื่อง"
 #: part/part.cpp:2812
 #, kde-format
 msgid "Continue losing changes"
-msgstr ""
+msgstr "ทำต่อโดยทิ้งการเปลี่ยนแปลง"
 
 #. +> trunk6 stable6
 #: part/part.cpp:2840
@@ -5957,7 +6090,9 @@ msgstr ""
 #: part/part.cpp:2915
 #, fuzzy, kde-format
 #| msgid "File could not be saved in '%1'. Try to save it to another location."
-msgid "File could not be saved in '%1'. Error: '%2'. Try to save it to another location."
+msgid ""
+"File could not be saved in '%1'. Error: '%2'. Try to save it to another locati"
+"on."
 msgstr "ไม่สามารถบันทึกแฟ้มไว้ใน '%1' ได้ ลองบันทึกมันไว้ในที่อื่น ๆ"
 
 #. +> trunk6 stable6
@@ -6011,14 +6146,21 @@ msgstr "ไม่ได้รับการอนุญาตให้ทำก
 #. +> trunk6 stable6
 #: part/part.cpp:3632
 #, kde-format
-msgid "Could not print the document. Unknown error. Please report to bugs.kde.org"
-msgstr "ไม่สามารถพิมพ์เอกสารได้ โดยไม่ทราบข้อผิดพลาด โปรดรายงานข้อผิดพลาดไปยัง bugs.kde.org"
+msgid ""
+"Could not print the document. Unknown error. Please report to bugs.kde.org"
+msgstr ""
+"ไม่สามารถพิมพ์เอกสารได้ โดยไม่ทราบข้อผิดพลาด โปรดรายงานข้อผิดพลาดไปยัง bugs.kd"
+"e.org"
 
 #. +> trunk6 stable6
 #: part/part.cpp:3634
 #, kde-format
-msgid "Could not print the document. Detailed error is \"%1\". Please report to bugs.kde.org"
-msgstr "ไม่สามารถพิมพ์เอกสารได้ รายละเอียดข้อผิดพลาดคือ \"%1\" โปรดรายงานข้อผิดพลาดไปยัง bugs.kde.org"
+msgid ""
+"Could not print the document. Detailed error is \"%1\". Please report to bugs."
+"kde.org"
+msgstr ""
+"ไม่สามารถพิมพ์เอกสารได้ รายละเอียดข้อผิดพลาดคือ \"%1\" โปรดรายงานข้อผิดพลาดไปย"
+"ัง bugs.kde.org"
 
 #. +> trunk6 stable6
 #: part/part.cpp:3723
@@ -6035,33 +6177,56 @@ msgstr "ไปยังที่ ที่คุณเคยไป หลัง�
 #. +> trunk6 stable6
 #: part/part.cpp:3752
 #, kde-format
-msgid "<qt><strong>File Error!</strong> Could not create temporary file <nobr><strong>%1</strong></nobr>.</qt>"
-msgstr "<qt><strong>แฟ้มผิดพลาด!</strong> ไม่สามารถสร้างแฟ้มชั่วคราว <nobr><strong>%1</strong></nobr> ได้</qt>"
+msgid ""
+"<qt><strong>File Error!</strong> Could not create temporary file <nobr><strong"
+">%1</strong></nobr>.</qt>"
+msgstr ""
+"<qt><strong>แฟ้มผิดพลาด!</strong> ไม่สามารถสร้างแฟ้มชั่วคราว <nobr><strong>%1<"
+"/strong></nobr> ได้</qt>"
 
 #. +> trunk6 stable6
 #: part/part.cpp:3764
 #, kde-format
-msgid "<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</strong></nobr> for uncompression. The file will not be loaded.</qt>"
-msgstr "<qt><strong>แฟ้มผิดพลาด!</strong> ไม่สามารถเปิดแฟ้ม <nobr><strong>%1</strong></nobr> เพื่อทำการคลายแฟ้มได้ แฟ้มจะไม่ถูกโหลด</qt>"
+msgid ""
+"<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</str"
+"ong></nobr> for uncompression. The file will not be loaded.</qt>"
+msgstr ""
+"<qt><strong>แฟ้มผิดพลาด!</strong> ไม่สามารถเปิดแฟ้ม <nobr><strong>%1</strong><"
+"/nobr> เพื่อทำการคลายแฟ้มได้ แฟ้มจะไม่ถูกโหลด</qt>"
 
 #. +> trunk6 stable6
 #: part/part.cpp:3768
 #, fuzzy, kde-format
 #| msgid "<qt>This error typically occurs if you do not have enough permissions to read the file. You can check ownership and permissions if you right-click on the file in the Dolphin file manager and then choose the 'Properties' tab.</qt>"
-msgid "<qt>This error typically occurs if you do not have enough permissions to read the file. You can check ownership and permissions if you right-click on the file in the Dolphin file manager, then choose the 'Properties' option, and select 'Permissions' tab in the opened window.</qt>"
-msgstr "<qt>ข้อผิดพลาดนี้ จะเกิดขึ้นหากคุณไม่มีสิทธิ์ในการอ่านแฟ้ม คุณสามารถตรวจสอบความเป็นเจ้าของแฟ้มและสิทธิ์ที่มีได้ง่าย ๆ โดยการคลิกเมาส์ปุ่มขวาบนแฟ้มในโปรแกรมจัดการแฟ้ม 'ดอลฟิน' จากนั้นเลือกแท็บ 'คุณสมบัติ'</qt>"
+msgid ""
+"<qt>This error typically occurs if you do not have enough permissions to read "
+"the file. You can check ownership and permissions if you right-click on the fi"
+"le in the Dolphin file manager, then choose the 'Properties' option, and selec"
+"t 'Permissions' tab in the opened window.</qt>"
+msgstr ""
+"<qt>ข้อผิดพลาดนี้ จะเกิดขึ้นหากคุณไม่มีสิทธิ์ในการอ่านแฟ้ม คุณสามารถตรวจสอบควา"
+"มเป็นเจ้าของแฟ้มและสิทธิ์ที่มีได้ง่าย ๆ โดยการคลิกเมาส์ปุ่มขวาบนแฟ้มในโปรแกรมจ"
+"ัดการแฟ้ม 'ดอลฟิน' จากนั้นเลือกแท็บ 'คุณสมบัติ'</qt>"
 
 #. +> trunk6 stable6
 #: part/part.cpp:3790
 #, kde-format
-msgid "<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>%1</strong></nobr>. The file will not be loaded.</qt>"
-msgstr "<qt><strong>แฟ้มผิดพลาด!</strong> ไม่สามารถคลายแฟ้ม <nobr><strong>%1</strong></nobr> ได้ แฟ้มจะไม่ถูกโหลด</qt>"
+msgid ""
+"<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>%"
+"1</strong></nobr>. The file will not be loaded.</qt>"
+msgstr ""
+"<qt><strong>แฟ้มผิดพลาด!</strong> ไม่สามารถคลายแฟ้ม <nobr><strong>%1</strong><"
+"/nobr> ได้ แฟ้มจะไม่ถูกโหลด</qt>"
 
 #. +> trunk6 stable6
 #: part/part.cpp:3794
 #, kde-format
-msgid "<qt>This error typically occurs if the file is corrupt. If you want to be sure, try to decompress the file manually using command-line tools.</qt>"
-msgstr "<qt>ข้อผิดพลาดนี้ จะเกิดขึ้นเมื่อแฟ้มมีส่วนผิดพลาดภายใน หากคุณต้องการความแน่ใจ โปรดทดลองคลายแฟ้มด้วยตัวเอง โดยใช้เครื่องมือคลายแฟ้มผ่านทางบรรทัดคำสั่ง</qt>"
+msgid ""
+"<qt>This error typically occurs if the file is corrupt. If you want to be sure"
+", try to decompress the file manually using command-line tools.</qt>"
+msgstr ""
+"<qt>ข้อผิดพลาดนี้ จะเกิดขึ้นเมื่อแฟ้มมีส่วนผิดพลาดภายใน หากคุณต้องการความแน่ใจ"
+" โปรดทดลองคลายแฟ้มด้วยตัวเอง โดยใช้เครื่องมือคลายแฟ้มผ่านทางบรรทัดคำสั่ง</qt>"
 
 #. +> trunk6 stable6
 #: part/part.cpp:3820
@@ -6073,25 +6238,25 @@ msgstr "ไม่มีที่คั่นหน้าใด ๆ"
 #: part/part.cpp:3891
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr ""
+msgstr "มีปัญหาในการแบ่งปันเอกสาร: %1"
 
 #. +> trunk6 stable6
 #: part/part.cpp:3891 part/part.cpp:3897
 #, kde-format
 msgid "Share"
-msgstr ""
+msgstr "แบ่งปัน"
 
 #. +> trunk6 stable6
 #: part/part.cpp:3895
 #, kde-format
 msgid "Document shared successfully"
-msgstr ""
+msgstr "เอกสารถูกแบ่งปันเรียบร้อยแล้ว"
 
 #. +> trunk6 stable6
 #: part/part.cpp:3897
 #, kde-format
 msgid "You can find the shared document at: <a href=\"%1\">%1</a>"
-msgstr ""
+msgstr "คุณสามารถหาเอกสารที่ถูกแบ่งปันได้ที่: <a href=\"%1\">%1</a>"
 
 #. i18n: ectx: Menu (edit)
 #. +> trunk6 stable6
@@ -6217,7 +6382,9 @@ msgstr "ตัวเลือกของเครื่องมือแก้
 #. +> trunk6 stable6
 #: part/preferencesdialog.cpp:56
 #, kde-format
-msgctxt "Give the user a hint, that it enabled the option --editor-cmd together with the current value of the option."
+msgctxt ""
+"Give the user a hint, that it enabled the option --editor-cmd together with th"
+"e current value of the option."
 msgid ""
 "The editor was set by the command line to \n"
 " %1 \n"
@@ -6295,13 +6462,21 @@ msgstr "เล่น"
 #. +> trunk6 stable6
 #: part/presentationwidget.cpp:1622
 #, kde-format
-msgid "There are two ways of exiting presentation mode, you can press either ESC key or click with the quit button that appears when placing the mouse in the top-right corner. Of course you can cycle windows (Alt+TAB by default)"
-msgstr "ในการออกจากโหมดการนำเสนอ มีอยู่ 2 วิธี คุณสามารถกดปุ่มพิมพ์ ESC หรือคลิกที่ปุ่มออก ซึ่งจะปรากฎเมื่อเคลื่อนเมาส์ไปยังมุมบนขวาของจอ และแน่นอน คุณยังคงสามารถเรียกใช้หน้าต่างอื่น ๆ ได้ (โดยปริยายจะใช้การกด Alt+TAB)"
+msgid ""
+"There are two ways of exiting presentation mode, you can press either ESC key "
+"or click with the quit button that appears when placing the mouse in the top-r"
+"ight corner. Of course you can cycle windows (Alt+TAB by default)"
+msgstr ""
+"ในการออกจากโหมดการนำเสนอ มีอยู่ 2 วิธี คุณสามารถกดปุ่มพิมพ์ ESC หรือคลิกที่ปุ่"
+"มออก ซึ่งจะปรากฎเมื่อเคลื่อนเมาส์ไปยังมุมบนขวาของจอ และแน่นอน คุณยังคงสามารถเร"
+"ียกใช้หน้าต่างอื่น ๆ ได้ (โดยปริยายจะใช้การกด Alt+TAB)"
 
 #. +> trunk6 stable6
 #: part/presentationwidget.cpp:1718
 #, kde-format
-msgctxt "Reason for inhibiting the screensaver activation, when the presentation mode is active"
+msgctxt ""
+"Reason for inhibiting the screensaver activation, when the presentation mode i"
+"s active"
 msgid "Giving a presentation"
 msgstr "ส่งให้การนำเสนอ"
 
@@ -6710,11 +6885,13 @@ msgstr "สีพื้นหลัง:"
 msgid ""
 "<div align=center>"
 "<h3>No annotations</h3>"
-"To create new annotations press F6 or select <i>Tools -&gt; Annotations</i> from the menu.</div>"
+"To create new annotations press F6 or select <i>Tools -&gt; Annotations</i> fr"
+"om the menu.</div>"
 msgstr ""
 "<div align=center>"
 "<h3>ยังไม่มีหมายเหตุประกอบใด ๆ</h3>"
-"หากต้องการสร้างหมายเหตุประกอบใหม่ ให้กดปุ่มพิมพ์ F6 หรือเลือก <i>เครื่องมือ -&gt; ตรวจทาน</i> จากเมนู</div>"
+"หากต้องการสร้างหมายเหตุประกอบใหม่ ให้กดปุ่มพิมพ์ F6 หรือเลือก <i>เครื่องมือ -&"
+"gt; ตรวจทาน</i> จากเมนู</div>"
 
 #. +> trunk6 stable6
 #: part/side_reviews.cpp:142
@@ -6809,7 +6986,9 @@ msgstr ""
 #. +> trunk6 stable6
 #: part/signaturepartutils.h:62
 #, kde-format
-msgctxt "Used when suggesting a new name for a digitally signed file. %1 is the old file name and %2 its extension"
+msgctxt ""
+"Used when suggesting a new name for a digitally signed file. %1 is the old fil"
+"e name and %2 its extension"
 msgid "%1_signed.%2"
 msgstr ""
 
@@ -6829,7 +7008,7 @@ msgstr ""
 #: part/signaturepropertiesdialog.cpp:60
 #, kde-format
 msgid "Document Modifications:"
-msgstr ""
+msgstr "การแก้ไขเอกสาร:"
 
 #. +> trunk6 stable6
 #: part/signaturepropertiesdialog.cpp:63
@@ -6960,13 +7139,13 @@ msgstr "แ&ก้ไข"
 #: part/widgetconfigurationtoolsbase.cpp:35
 #, kde-format
 msgid "&Remove"
-msgstr ""
+msgstr "เอาออก"
 
 #. +> trunk6 stable6
 #: part/widgetconfigurationtoolsbase.cpp:39
 #, kde-format
 msgid "Move &Up"
-msgstr ""
+msgstr "เลื่อนขึ้น"
 
 #. +> trunk6 stable6
 #: part/widgetconfigurationtoolsbase.cpp:43
@@ -7046,12 +7225,17 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Document to open. Specify '-' to read from stdin."
 msgid "Documents to open. Specify '-' to read from stdin."
-msgstr "เอกสารที่จะเปิด ระบุค่า '-' เพื่อให้ทำการอ่านจากส่วนนำเข้าข้อมูลมาตรฐาน (stdin)"
+msgstr ""
+"เอกสารที่จะเปิด ระบุค่า '-' เพื่อให้ทำการอ่านจากส่วนนำเข้าข้อมูลมาตรฐาน (stdin"
+")"
 
 #. +> trunk6 stable6
 #: shell/okular_main.cpp:66 shell/okular_main.cpp:171
 #, kde-format
-msgid "You cannot set the editor command in an already running okular instance. Please disable the tabs and try again. Please note, that unique is also not supported when setting the editor command at the commandline.\n"
+msgid ""
+"You cannot set the editor command in an already running okular instance. Pleas"
+"e disable the tabs and try again. Please note, that unique is also not support"
+"ed when setting the editor command at the commandline.\n"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -7101,8 +7285,10 @@ msgstr "แสดงแถบห&น้าเอกสาร"
 #. +> trunk6 stable6
 #: shell/shell.cpp:286
 #, kde-format
-msgid "There is already a unique Okular instance running. This instance won't be the unique one."
-msgstr ""
+msgid ""
+"There is already a unique Okular instance running. This instance won't be the "
+"unique one."
+msgstr "มี Okular รันอยู่หนึ่งตัวแล้ว Okular ตัวนี้จะไม่ใช่ตัวเดียวอีกต่อไป"
 
 #. +> trunk6 stable6
 #: shell/shell.cpp:315
@@ -7123,8 +7309,10 @@ msgstr ""
 #. +> trunk6 stable6
 #: shell/shell.cpp:571
 #, kde-format
-msgid "<b>Click</b> to open a file or <b>Click and hold</b> to select a recent file"
-msgstr "<b>คลิก</b>เพื่อเปิดแฟ้ม หรือ<b>คลิกค้างไว้</b> เพื่อเลือกเอกสารที่เคยเรียกใช้"
+msgid ""
+"<b>Click</b> to open a file or <b>Click and hold</b> to select a recent file"
+msgstr ""
+"<b>คลิก</b>เพื่อเปิดแฟ้ม หรือ<b>คลิกค้างไว้</b> เพื่อเลือกเอกสารที่เคยเรียกใช้"
 
 #. +> trunk6 stable6
 #: shell/shell.cpp:584
@@ -7150,7 +7338,7 @@ msgstr ""
 #: shell/shell.cpp:614
 #, kde-format
 msgid "Undo close tab"
-msgstr ""
+msgstr "ยกเลิกการปิดแท็บ"
 
 #. +> trunk6 stable6
 #: shell/shell.cpp:623
@@ -7170,7 +7358,7 @@ msgstr "*|แฟ้มทั้งหมด"
 #: shell/shell.cpp:724
 #, kde-format
 msgid "All supported files (%1)"
-msgstr ""
+msgstr "ไฟล์ทั้งหมดที่รองรับ (%1)"
 
 #. +> trunk6 stable6
 #: shell/shell.cpp:728
@@ -7182,7 +7370,7 @@ msgstr "เปิดเอกสาร"
 #: shell/shell.cpp:842
 #, kde-format
 msgid "Confirm Close"
-msgstr ""
+msgstr "ยืนยันการปิด"
 
 #. +> trunk6 stable6
 #: shell/shell.cpp:846
@@ -7202,7 +7390,7 @@ msgstr "มีแฟ้มชื่อ \"%1\" อยู่แล้ว คุณ
 #: shell/shell.cpp:855
 #, kde-format
 msgid "Warn me when I attempt to close multiple tabs"
-msgstr ""
+msgstr "เตือนหากมีการปิดหลายแท็บ"
 
 #. +> trunk6 stable6
 #: shell/welcomescreen.cpp:64
@@ -7222,7 +7410,7 @@ msgstr ""
 #, kde-format
 msgctxt "recent items context menu"
 msgid "&Forget This Item"
-msgstr ""
+msgstr "ลืมรายการนี้"
 
 #. +> trunk6 stable6
 #: shell/welcomescreen.cpp:137
@@ -7237,7 +7425,7 @@ msgstr "เอกสารปัจจุบันเท่านั้น"
 #: shell/welcomescreen.ui:153
 #, kde-format
 msgid "Welcome to Okular"
-msgstr ""
+msgstr "ต้อนรับสู่ Okular"
 
 #. i18n: ectx: property (text), widget (QPushButton, openButton)
 #. +> trunk6 stable6
@@ -7263,7 +7451,7 @@ msgstr "เอกสารปัจจุบันเท่านั้น"
 #, kde-format
 msgctxt "on welcome screen (recent document list)"
 msgid "Forget All"
-msgstr ""
+msgstr "ลืมให้หมด"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, closeButton)
 #. +> trunk6 stable6
