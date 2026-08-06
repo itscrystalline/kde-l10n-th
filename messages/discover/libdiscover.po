@@ -1672,13 +1672,13 @@ msgstr "ติดตั้งจากบนเครื่องล้มเห
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:81
 #, kde-format
 msgid "Bad GPG signature found"
-msgstr "เจอการลงชื่อ GPG ที่ผิด"
+msgstr "เจอการลงนาม GPG ที่ผิด"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:83
 #, kde-format
 msgid "No GPG signature found"
-msgstr "ไม่มีการลงชื่อ GPG"
+msgstr "ไม่มีการลงนาม GPG"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:85
@@ -1708,363 +1708,363 @@ msgstr "พบไฟล์ที่ขัดแย้งกัน"
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:93
 #, kde-format
 msgid "Package conflict found"
-msgstr ""
+msgstr "เจอแพ็คเกจที่ขัดแย้งกัน"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:95
 #, kde-format
 msgid "Repo not available"
-msgstr ""
+msgstr "แหล่งที่มาใช้ไม่ได้"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:97
 #, kde-format
 msgid "Invalid package file"
-msgstr ""
+msgstr "ไฟล์แพ็คเกจไม่ถูกต้อง"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:99
 #, kde-format
 msgid "Package install blocked"
-msgstr ""
+msgstr "การติดตั้งแพ็คเกจถูกกีดกัน"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:101
 #, kde-format
 msgid "Corrupt package found"
-msgstr ""
+msgstr "เจอแพ็คเกจที่เสียหาย"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:103
 #, kde-format
 msgid "All packages already installed"
-msgstr ""
+msgstr "แพ็คเกจทุกตัวถูกติดตั้งแล้ว"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:105
 #, kde-format
 msgid "File not found"
-msgstr ""
+msgstr "ไม่เจอไฟล์"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:107
 #, kde-format
 msgid "No more mirrors available"
-msgstr ""
+msgstr "ไม่มีมิเรอร์อื่นๆอีก"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:109
 #, kde-format
 msgid "No distro upgrade data"
-msgstr ""
+msgstr "ไม่มีข้อมูลอัพเกรด Distro"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:111
 #, kde-format
 msgid "Incompatible architecture"
-msgstr ""
+msgstr "สถาปัตยกรรมไม่เข้ากัน"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:113
 #, kde-format
 msgid "No space on device left"
-msgstr ""
+msgstr "ไม่มีพื้นที่ว่างเหลืออยู่"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:115
 #, kde-format
 msgid "A media change is required"
-msgstr ""
+msgstr "ต้องเปลี่ยนมิเดีย"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:117
 #, kde-format
 msgid "You have no authorization to execute this operation"
-msgstr ""
+msgstr "คุณไม่มีสิทธ์ที่จะทำการทำงานนี้"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:119
 #, kde-format
 msgid "Update not found"
-msgstr ""
+msgstr "ไม่เจออัพเดท"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:121
 #, kde-format
 msgid "Cannot install from unsigned repo"
-msgstr ""
+msgstr "ไม่สามารถติดตั้งจากแหล่งที่มาที่ไม่ได้ลงชื่อได้"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:123
 #, kde-format
 msgid "Cannot update from unsigned repo"
-msgstr ""
+msgstr "ไม่สามารถอัพเดตจากแหล่งที่มาที่ไม่ได้ลงชื่อได้"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:125
 #, kde-format
 msgid "Cannot get file list"
-msgstr ""
+msgstr "ไม่สามารถดึงรายชื่อไฟล์ได้"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:127
 #, kde-format
 msgid "Cannot get requires"
-msgstr ""
+msgstr "ไม่สามารถดึงข้อมูลสิ่งที่ต้องใช้ได้"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:129
 #, kde-format
 msgid "Cannot disable repository"
-msgstr ""
+msgstr "ไม่สามารถปิดใช้งานแหล่งที่มาได้"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:131
 #, kde-format
 msgid "Restricted download detected"
-msgstr ""
+msgstr "พบการดาวน์โหลดที่ถูกจำกัดอยู่"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:133
 #, kde-format
 msgid "Package failed to configure"
-msgstr ""
+msgstr "ตั้งค่าแพ็กเกจล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:135
 #, kde-format
 msgid "Package failed to build"
-msgstr ""
+msgstr "บิวด์ของแพ็คเกจล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:137
 #, kde-format
 msgid "Package failed to install"
-msgstr ""
+msgstr "ติดตั้งแพ็คเกจล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:139
 #, kde-format
 msgid "Package failed to remove"
-msgstr ""
+msgstr "ลบแพ็คเกจล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:141
 #, kde-format
 msgid "Update failed due to running process"
-msgstr ""
+msgstr "อัพเดตล้มเหลวเนื่องจากโปรแกรมยังทำงานอยู่"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:143
 #, kde-format
 msgid "The package database changed"
-msgstr ""
+msgstr "ฐานข้อมูลแพ็คเกจเปลี่ยนไป"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:145
 #, kde-format
 msgid "The provided type is not supported"
-msgstr ""
+msgstr "ไม่รองรับชนิดที่ให้มา"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:147
 #, kde-format
 msgid "Install root is invalid"
-msgstr ""
+msgstr "รูทที่ติดตั้งไม่ถูกต้อง"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:149
 #, kde-format
 msgctxt "Failed to sync your Linux distro repositories or other sources of packages"
 msgid "Cannot fetch sources"
-msgstr ""
+msgstr "ไม่สามารถดึงแหล่งที่มา"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:151
 #, kde-format
 msgid "Canceled priority"
-msgstr ""
+msgstr "ยกเลิกลำดับความสำคัญ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:153
 #, kde-format
 msgid "Unfinished transaction"
-msgstr ""
+msgstr "Transaction ที่ยังไม่เสร็จ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:155
 #, kde-format
 msgid "Lock required"
-msgstr ""
+msgstr "ต้องมีการล็อค"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:160
 #, kde-format
 msgid "Unknown error %1."
-msgstr ""
+msgstr "พบปัญหาที่ไม่รู้จัก %1"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:169
 #, kde-format
 msgid "'%1' was changed and suggests to be restarted."
-msgstr ""
+msgstr "'%1' เปลี่ยนไป แนะนำให้รีสตาร์ท"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:171
 #, kde-format
 msgid "A change by '%1' suggests your session to be restarted."
-msgstr ""
+msgstr "การเปลี่ยนแปลงโดย '%1' แนะนำให้รีสตาร์ท Session ของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:173
 #, kde-format
 msgid "'%1' was updated for security reasons, a restart of the session is recommended."
-msgstr ""
+msgstr "'%1' ถูกอัพเดตเนื่องจาดเหตุผลทางความปลอดภัย แนะนำให้รีสตาร์ท Session ของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:175
 #, kde-format
 msgid "'%1' was updated for security reasons, a restart of the system is recommended."
-msgstr ""
+msgstr "'%1' ถูกอัพเดตเนื่องจาดเหตุผลทางความปลอดภัย แนะนำให้รีสตาร์ท Session ของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:180
 #, kde-format
 msgid "A change by '%1' suggests your system to be restarted."
-msgstr ""
+msgstr "การเปลี่ยนแปลงโดย '%1' แนะนำให้รีสตาร์ทเครื่องของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:188
 #, kde-format
 msgid "The application will have to be restarted."
-msgstr ""
+msgstr "จะต้องรีสตาร์ทแอพนี้"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:190
 #, kde-format
 msgid "The session will have to be restarted"
-msgstr ""
+msgstr "จะต้องรีสตาร์ท Session นี้"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:192
 #, kde-format
 msgid "The system will have to be restarted."
-msgstr ""
+msgstr "จะต้องรีสตาร์ทเครื่อง"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:194
 #, kde-format
 msgid "For security, the session will have to be restarted."
-msgstr ""
+msgstr "เพื่อความปลอดภัย จะต้องรีสตาร์ท Session นี้"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:196
 #, kde-format
 msgid "For security, the system will have to be restarted."
-msgstr ""
+msgstr "เพื่อความปลอดภัย จะต้องรีสตาร์ทเครื่อง"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:208
 #, kde-format
 msgid "Waiting…"
-msgstr ""
+msgstr "กำลังรอ..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:210
 #, kde-format
 msgid "Refreshing Cache…"
-msgstr ""
+msgstr "กำลังรีเฟรช Cache..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:212
 #, kde-format
 msgid "Setup…"
-msgstr ""
+msgstr "ตั้งค่า..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:214
 #, kde-format
 msgid "Processing…"
-msgstr ""
+msgstr "กำลังดำเนินการ..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:216
 #, kde-format
 msgid "Remove…"
-msgstr ""
+msgstr "ลบ..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:218
 #, kde-format
 msgid "Downloading…"
-msgstr ""
+msgstr "กำลังดาวน์โหลด์"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:220
 #, kde-format
 msgid "Installing…"
-msgstr ""
+msgstr "กำลังติดตั้ง..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:222
 #, kde-format
 msgid "Updating…"
-msgstr ""
+msgstr "กำลังอัพเดต..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:224
 #, kde-format
 msgid "Cleaning up…"
-msgstr ""
+msgstr "กำลังทำความสะอาด..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:227
 #, kde-format
 msgid "Resolving dependencies…"
-msgstr ""
+msgstr "กำลังหาแพ็กเกจที่พื่งพา..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:229
 #, kde-format
 msgid "Checking signatures…"
-msgstr ""
+msgstr "กำลังตรวจสอบการลงนาม..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:231
 #, kde-format
 msgid "Test committing…"
-msgstr ""
+msgstr "ทดสอบการ Commit..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:233
 #, kde-format
 msgid "Committing…"
-msgstr ""
+msgstr "กำลัง Commit..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:236
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:362
 #, kde-format
 msgid "Finished"
-msgstr ""
+msgstr "เสร็จสิ้นแล้ว"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:238
 #, kde-format
 msgid "Canceled"
-msgstr ""
+msgstr "ยกเลิกแล้ว"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:240
 #, kde-format
 msgid "Waiting for lock…"
-msgstr ""
+msgstr "กำลังรอล็อค..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:242
 #, kde-format
 msgid "Waiting for authorization…"
-msgstr ""
+msgstr "กำลังรอการได้รับอนุญาติ..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:247
