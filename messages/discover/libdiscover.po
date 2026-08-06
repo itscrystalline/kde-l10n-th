@@ -1195,60 +1195,60 @@ msgstr "มีสิ่งทดแทน"
 #, kde-kuit-format
 msgctxt "@info %1 and 2 are flatpak ids e.g. org.kde.krita (can be rather lengthy though)"
 msgid "<resource>%1</resource> is no longer receiving updates.<nl/><nl/>Replace it with the supported version provided by <resource>%2</resource>?"
-msgstr "<resource>%1</resource> ไม่ได้รับการอัพเดตแล้ว <nl/><nl/>ต้องการนำเวอร์ชันจาก<resource>%2</resource>ที่มีการรองรับมาทดแทนใหม"
+msgstr "<resource>%1</resource> ไม่ได้รับการอัพเดตแล้ว<nl/><nl/>ต้องการนำเวอร์ชันจาก<resource>%2</resource>ที่มีการรองรับมาทดแทนใหม"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/FlatpakBackend/FlatpakTransactionThread.cpp:470
 #, kde-format
 msgctxt "@title"
 msgid "Automatic Removal"
-msgstr ""
+msgstr "การลบอัตโนมัติ"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/FlatpakBackend/FlatpakTransactionThread.cpp:472
 #, kde-kuit-format
 msgctxt "@info %1 is a flatpak id e.g. org.kde.krita (can be rather lengthy though)"
 msgid "<resource>%1</resource> is no longer receiving updates.<nl/><p>The reason given is: <message>%2</message></p><nl/><p>Automatically remove it?</p>"
-msgstr ""
+msgstr "<resource>%1</resource> ไม่ได้รับการอัพเดตแล้ว<nl/><p/>เหตุผลที่ให้คือ: <message>%2</message></p><nl/><p>ต้องการลบเลยใหม</p>"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/FlatpakBackend/qml/FlatpakOldBeta.qml:30
 #, kde-format
 msgctxt "@label %1 is the name of an application"
 msgid "This development version of %1 is outdated. Using the stable version is highly recommended."
-msgstr ""
+msgstr "เวอร์ชันพัฒนาของ %1 นี้ได้ล้าสมัยไปแล้ว แนะนำให้ใช้เวอร์ชันที่เถียร"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/FlatpakBackend/qml/FlatpakOldBeta.qml:31
 #, kde-format
 msgctxt "@label %1 is the name of an application"
 msgid "A more stable version of %1 is available."
-msgstr ""
+msgstr "มีเวอร์ชันที่เถียรกว่าของ %1 อยู่"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/FlatpakBackend/qml/FlatpakOldBeta.qml:50
 #, kde-format
 msgctxt "@action: button %1 is the name of a Flatpak repo"
 msgid "View Stable Version on %1"
-msgstr ""
+msgstr "ดูเวอร์ชันเถียรบน %1"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/FlatpakBackend/qml/FlatpakRemoveData.qml:19
 #, kde-format
 msgid "%1 is not installed but it still has data present."
-msgstr ""
+msgstr "ไม่ได้มี %1 ติดตั้งอยู่ แต่ยังมีข้อมูลคงเหลืออยู่"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/FlatpakBackend/qml/FlatpakRemoveData.qml:45
 #, kde-format
 msgid "Delete settings and user data"
-msgstr ""
+msgstr "ลบการตั้งค่าและข้อมูลของผู้ใช้"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/FlatpakBackend/qml/FlatpakRemoveData.qml:48
 #, kde-format
 msgid "Clearing settings and user data…"
-msgstr ""
+msgstr "กำลังล้างการตั้งค่าและข้อมูลของผู้ใช้..."
 
 #. +> stable5
 #: libdiscover/backends/FlatpakBackend/qml/PermissionsList.qml:20
@@ -1256,7 +1256,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is the name of the application"
 msgid "Permissions for %1"
-msgstr ""
+msgstr "สิทธิ์การเข้าถึงของ %1"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/FlatpakBackend/qml/PermissionsList.qml:26
@@ -1264,100 +1264,100 @@ msgstr ""
 #, kde-format
 msgctxt "Permission to access system resources and hardware devices"
 msgid "Permissions"
-msgstr ""
+msgstr "สิทธิ์การเข้าถึง"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/FlatpakBackend/qml/PermissionsList.qml:76
 #: libdiscover/backends/SnapBackend/qml/PermissionsButton.qml:20
 #, kde-format
 msgid "Configure permissions…"
-msgstr ""
+msgstr "ตั้งค่าสิทธิ์การเข้าถึง..."
 
 #. +> trunk6 stable6
 #: libdiscover/backends/FwupdBackend/FwupdBackend.cpp:486
 #: libdiscover/backends/FwupdBackend/FwupdResource.cpp:116
 #, kde-format
 msgid "Firmware Updates"
-msgstr ""
+msgstr "อัพเดตเฟิร์มแวร์"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/FwupdBackend/FwupdSourcesBackend.cpp:38
 #, kde-format
 msgid "The remote %1 require that you accept their license:\n %2"
-msgstr ""
+msgstr "แหล่งที่มา %1 ต้องการให้คุณยอมรับลิขสิทธ์:\n %2"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/FwupdBackend/FwupdSourcesBackend.cpp:41
 #, kde-format
 msgid "Review EULA"
-msgstr ""
+msgstr "ดู EULA"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/FwupdBackend/FwupdSourcesBackend.cpp:137
 #, kde-format
 msgid "Could not enable remote %1: %2"
-msgstr ""
+msgstr "ไม่สามารถเปิดใช้แหล่งที่มา %1 ได้: %2"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/HoloBackend/HoloBackend.cpp:71
 #, kde-format
 msgid "SteamOS"
-msgstr ""
+msgstr "SteamOS"
 
 #. +> trunk6
 #: libdiscover/backends/HoloBackend/HoloBackend.cpp:73
 #, kde-format
 msgid "Holo"
-msgstr ""
+msgstr "Holo"
 
 #. +> trunk6
 #: libdiscover/backends/HoloBackend/HoloBackend.cpp:113
 #, kde-format
 msgctxt "%1 is the pretty name of the distro e.g. Holo or SteamOS"
 msgid "Holo: Unable to query atomupd for %1 Updates..."
-msgstr ""
+msgstr "Holo: ไม่สามารถค้นหา atomupd เพื่อหาอัพเดตได้..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:64
 #, kde-format
 msgid "Unsupported question:\n%1"
-msgstr ""
+msgstr "คำถามที่ไม่รองรับ:\n%1"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:210
 #, kde-format
 msgid "Backend %1 took too long to initialize"
-msgstr ""
+msgstr "Backend %1 ใช้เวลาเริ่มต้นนานเกินไป"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:276
 #, kde-format
 msgid "Applications"
-msgstr ""
+msgstr "แอพพลิเคชั่น"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:304
 #, kde-format
 msgid "Plasma Addons"
-msgstr ""
+msgstr "ส่วนขยาย Plasma"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:304
 #, kde-format
 msgid "Application Addons"
-msgstr ""
+msgstr "ส่วนขยายแอพ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:392
 #, kde-format
 msgid "Network error in backend %1: %2"
-msgstr ""
+msgstr "พบปัญหาเครือข่ายใน Backend %1: %2"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:399
 #, kde-format
 msgid "Too many requests sent to the server for backend %1. Please try again in a few minutes."
-msgstr ""
+msgstr "มีคำขอถูกส่งไปยังเซิร์ฟเวอร์สำหรับ Backend %1 มากเกินไป โปรดลองใหม่ในอีกไม่กี่นาที"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:402
@@ -1365,31 +1365,31 @@ msgstr ""
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:413
 #, kde-format
 msgid "Invalid %1 backend, contact your distributor."
-msgstr ""
+msgstr "Backend %1 ไม่ถูกต้อง ติดต่อผู้จัดจำหน่ายของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:432
 #, kde-format
 msgid "Unable to complete the update of %1. You can try and perform this action through the Get Hot New Stuff dialog, which grants tighter control. The reported error was:\n%2"
-msgstr ""
+msgstr "ไม่สามารถอัพเดต %1 จนเสร็จได้ คุณสามารถลองทำผ่านไดอะล็อก \"รับของใหม่สดๆ\" ซึ่งสามารถควบคุมได้มากขึ้น ปัญหาที่พบคือ:\n%2"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:442
 #, kde-format
 msgid "Could not fetch screenshot for the entry %1 in backend %2"
-msgstr ""
+msgstr "ไม่สามารถดึงรูปถ่ายหน้าจอของ %1 ใน Backend %2"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:446
 #, kde-format
 msgid "Unhandled error in %1 backend. Contact your distributor."
-msgstr ""
+msgstr "พบปัญหาที่ไม่ได้คาดคิดใน Backend %1  ติดต่อผู้จัดจำหน่ายของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:570
 #, kde-format
 msgid "Wrong KNewStuff URI: %1"
-msgstr ""
+msgstr "URI ของ KNewStuff ผิด: %1"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSResource.cpp:169
