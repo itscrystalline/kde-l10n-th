@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-28 07:30+0100\n"
-"PO-Revision-Date: 2026-08-06 09:40+0700\n"
+"PO-Revision-Date: 2026-08-06 14:33+0700\n"
 "Last-Translator: Wararat Choyrum <real@iw2tryhard.dev>\n"
 "Language-Team: Thai\n"
 "Language: th\nMIME-Version: 1.0\n"
@@ -118,8 +118,8 @@ msgstr "การจัดการแพ็คเกจ"
 #. +> trunk6 stable6
 #: libdiscover/backends/AlpineApkBackend/AlpineApkBackend.cpp:203
 #, kde-format
-msgid "Loading, please wait..."
-msgstr "กำลังโหลด โปรดรอ..."
+msgid "Loading, please wait…"
+msgstr "กำลังโหลด โปรดรอ…"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/AlpineApkBackend/AlpineApkBackend.cpp:289
@@ -1248,7 +1248,7 @@ msgstr "ลบการตั้งค่าและข้อมูลของ
 #: libdiscover/backends/FlatpakBackend/qml/FlatpakRemoveData.qml:48
 #, kde-format
 msgid "Clearing settings and user data…"
-msgstr "กำลังล้างการตั้งค่าและข้อมูลของผู้ใช้..."
+msgstr "กำลังล้างการตั้งค่าและข้อมูลของผู้ใช้…"
 
 #. +> stable5
 #: libdiscover/backends/FlatpakBackend/qml/PermissionsList.qml:20
@@ -1271,7 +1271,7 @@ msgstr "สิทธิ์การเข้าถึง"
 #: libdiscover/backends/SnapBackend/qml/PermissionsButton.qml:20
 #, kde-format
 msgid "Configure permissions…"
-msgstr "ตั้งค่าสิทธิ์การเข้าถึง..."
+msgstr "ตั้งค่าสิทธิ์การเข้าถึง…"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/FwupdBackend/FwupdBackend.cpp:486
@@ -1314,8 +1314,8 @@ msgstr "Holo"
 #: libdiscover/backends/HoloBackend/HoloBackend.cpp:113
 #, kde-format
 msgctxt "%1 is the pretty name of the distro e.g. Holo or SteamOS"
-msgid "Holo: Unable to query atomupd for %1 Updates..."
-msgstr "Holo: ไม่สามารถค้นหา atomupd เพื่อหาอัพเดตได้..."
+msgid "Holo: Unable to query atomupd for %1 Updates…"
+msgstr "Holo: ไม่สามารถค้นหา atomupd เพื่อหาอัพเดตได้…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:64
@@ -1967,31 +1967,31 @@ msgstr "เพื่อความปลอดภัย จะต้องร�
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:208
 #, kde-format
 msgid "Waiting…"
-msgstr "กำลังรอ..."
+msgstr "กำลังรอ…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:210
 #, kde-format
 msgid "Refreshing Cache…"
-msgstr "กำลังรีเฟรช Cache..."
+msgstr "กำลังรีเฟรช Cache…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:212
 #, kde-format
 msgid "Setup…"
-msgstr "ตั้งค่า..."
+msgstr "ตั้งค่า…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:214
 #, kde-format
 msgid "Processing…"
-msgstr "กำลังดำเนินการ..."
+msgstr "กำลังดำเนินการ…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:216
 #, kde-format
 msgid "Remove…"
-msgstr "ลบ..."
+msgstr "ลบ…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:218
@@ -2003,43 +2003,43 @@ msgstr "กำลังดาวน์โหลด์"
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:220
 #, kde-format
 msgid "Installing…"
-msgstr "กำลังติดตั้ง..."
+msgstr "กำลังติดตั้ง…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:222
 #, kde-format
 msgid "Updating…"
-msgstr "กำลังอัพเดต..."
+msgstr "กำลังอัพเดต…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:224
 #, kde-format
 msgid "Cleaning up…"
-msgstr "กำลังทำความสะอาด..."
+msgstr "กำลังทำความสะอาด…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:227
 #, kde-format
 msgid "Resolving dependencies…"
-msgstr "กำลังหาแพ็กเกจที่พื่งพา..."
+msgstr "กำลังหาแพ็กเกจที่พื่งพา…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:229
 #, kde-format
 msgid "Checking signatures…"
-msgstr "กำลังตรวจสอบการลงนาม..."
+msgstr "กำลังตรวจสอบการลงนาม…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:231
 #, kde-format
 msgid "Test committing…"
-msgstr "ทดสอบการ Commit..."
+msgstr "ทดสอบการ Commit…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:233
 #, kde-format
 msgid "Committing…"
-msgstr "กำลัง Commit..."
+msgstr "กำลัง Commit…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:236
@@ -2058,13 +2058,13 @@ msgstr "ยกเลิกแล้ว"
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:240
 #, kde-format
 msgid "Waiting for lock…"
-msgstr "กำลังรอล็อค..."
+msgstr "กำลังรอล็อค…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:242
 #, kde-format
 msgid "Waiting for authorization…"
-msgstr "กำลังรอการได้รับอนุญาติ..."
+msgstr "กำลังรอการได้รับอนุญาติ…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:247
@@ -3213,7 +3213,7 @@ msgstr ""
 #. +> stable6 stable5
 #: libdiscover/backends/SteamOSBackend/SteamOSBackend.cpp:94
 #, kde-format
-msgid "SteamOS: Unable to query atomupd for SteamOS Updates..."
+msgid "SteamOS: Unable to query atomupd for SteamOS Updates…"
 msgstr ""
 
 #. +> stable5
