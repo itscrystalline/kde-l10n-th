@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-28 07:30+0100\n"
-"PO-Revision-Date: 2026-08-07 10:15+0700\n"
+"PO-Revision-Date: 2026-08-07 13:30+0700\n"
 "Last-Translator: Wararat Choyrum <real@iw2tryhard.dev>\n"
 "Language-Team: Thai\n"
 "Language: th\nMIME-Version: 1.0\n"
@@ -1997,7 +1997,7 @@ msgstr "ลบ…"
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:218
 #, kde-format
 msgid "Downloading…"
-msgstr "กำลังดาวน์โหลด์"
+msgstr "กำลังดาวน์โหลด…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:220
@@ -2878,346 +2878,346 @@ msgstr "Backend rpm-ostree: ปัญหา: ทรัพยากรมีร�
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:366
 #, kde-format
 msgid "Cancelling rpm-ostree transaction. This may take some time. Please wait."
-msgstr ""
+msgstr "กำลังยกเลิก rpm-ostree Transaction อาจจะใช้เวลาสักพัก โปรดรอ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:395
 #, kde-format
 msgid "Checking for a system update"
-msgstr ""
+msgstr "กำลังตรวจหาอัพเดตระบบ"
 
 #. +> stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:398
 #, kde-format
 msgid "Downloading system update"
-msgstr ""
+msgstr "กำลังดาวน์โหลดอัพเดตระบบ"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:398
 #, kde-format
 msgid "Downloading system update. Please be patient as progress is not reported."
-msgstr ""
+msgstr "กำลังดาวน์โหลดอัพเดตระบบ โปรดอดทนรอเพราะความคืบหน้าจะไม่ถูกแสดง"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:401
 #, kde-format
 msgid "Updating the system. Please be patient as progress is not reported."
-msgstr ""
+msgstr "กำลังอัพเดตระบบ โปรดอดทนรอเพราะความคืบหน้าจะไม่ถูกแสดง"
 
 #. +> stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:401
 #, kde-format
 msgid "Updating the system"
-msgstr ""
+msgstr "กำลังอัพเดตระบบ"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:404
 #, kde-format
 msgid "Updating to the next major version. Please be patient as progress is not reported."
-msgstr ""
+msgstr "กำลังอัพเดตระบบไปยังเวอร์ชันใหญ่ถัดไป โปรดอดทนรอเพราะความคืบหน้าจะไม่ถูกแสดง"
 
 #. +> stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:404
 #, kde-format
 msgid "Updating to the next major version"
-msgstr ""
+msgstr "กำลังอัพเดตระบบไปยังเวอร์ชันใหญ่ถัดไป"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:407
 #, kde-format
 msgid "Operation in progress (started outside of Discover)"
-msgstr ""
+msgstr "กำลังทำงานอยู่ (เรื่มจากนอก Discover)"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:413
 #, kde-format
 msgid "Unknown transaction type"
-msgstr ""
+msgstr "ไม่รู้จักชนิด Transaction"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/SnapBackend/qml/ChannelsButton.qml:22
 #, kde-format
 msgid "Channel: %1"
-msgstr ""
+msgstr "ช่อง %1"
 
 #. +> stable5
 #: libdiscover/backends/SnapBackend/qml/ChannelsButton.qml:15
 #, kde-format
 msgid "Channels…"
-msgstr ""
+msgstr "ช่อง…"
 
 #. +> stable5
 #: libdiscover/backends/SnapBackend/qml/ChannelsButton.qml:23
 #, kde-format
 msgid "%1 channels"
-msgstr ""
+msgstr "%1 ช่อง"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/SnapBackend/qml/ChannelsButton.qml:31
 #, kde-format
 msgid "Channels for %1"
-msgstr ""
+msgstr "ช่องสำหรับ %1"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/SnapBackend/qml/ChannelsButton.qml:45
 #: libdiscover/backends/SnapBackend/SnapResource.cpp:384
 #, kde-format
 msgid "%1 - %2"
-msgstr ""
+msgstr "%1 - %2"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/SnapBackend/qml/ChannelsButton.qml:57
 #, kde-format
 msgid "Switch"
-msgstr ""
+msgstr "เปลี่ยน"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/SnapBackend/qml/PermissionsButton.qml:28
 #, kde-format
 msgid "Permissions for %1"
-msgstr ""
+msgstr "สิทธิ์การเข้าถึงของ %1"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/SnapBackend/SnapBackend.cpp:43
 #, kde-format
 msgid "Snap"
-msgstr ""
+msgstr "Snap"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/SnapBackend/SnapResource.cpp:585
 #, kde-format
 msgid "Verified Publisher on snapcraft.io"
-msgstr ""
+msgstr "ผู้จำหน่ายที่ตรวจสอบแล้วบน snapcraft.io"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/SnapBackend/SnapResource.cpp:587
 #, kde-format
 msgid "Starred Publisher on snapcraft.io"
-msgstr ""
+msgstr "ผู้จำหน่ายที่ติดดาวบน snapcraft.io"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/SnapBackend/SnapTransaction.cpp:57
 #, kde-format
 msgid "This Snap application is not compatible with security sandboxing and will have full access to this computer. Install it anyway?"
-msgstr ""
+msgstr "แอพ Snap นี้ไม่รองรับการ Sandbox ความปลอดภัยและจะมีสิทธ์เข้าถึงทุกส่วนบนเครื่องนี้ ยังต้องการติดตั้งใหม"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:149
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Failed to get appstream data for “%1”.<nl/><nl/>Error message: %2"
-msgstr ""
+msgstr "ไม่สามารถดึงข้อมูล Appstream สำหรับ \"%1\"<nl/><nl/>ข้อผิดพลาด: %2"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:154
 #, kde-format
 msgctxt "@info:status"
 msgid "No appstream URLs found for target “%1”"
-msgstr ""
+msgstr "ไม่เจอ URL ของ Appstream สำหรับเป้าหมาย \"%1\""
 
 #. +> trunk6 stable6
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:165
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Failed to fetch the updates from <a href='%1'>%1</a>.<nl/><nl/>Error message: %2"
-msgstr ""
+msgstr "ไม่สามารถดึงอัพเดตจาก <a href='%1'>%1</a><nl/><nl/>ข้อผิดพลาด: %2"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:178
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Failed to parse update metadata.<nl/><nl/>Error message: %1"
-msgstr ""
+msgstr "ไม่สามารถอ่านข้อมูลเมตาของอัพเดตได้<nl/><nl/>ข้อผิดพลาด: %2"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:187
 #, kde-format
 msgctxt "@info:status"
 msgid "No components found in appstream metadata for target “%1”"
-msgstr ""
+msgstr "ไม่เจอส่วนประกอบในข้อมูลเมตาของ Appstream สำหรับเป้าหมาย \"%1\""
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/DiscoverBackendsFactory.cpp:127
 #, kde-format
 msgid "List all the backends we'll want to have loaded, separated by comma ','."
-msgstr ""
+msgstr "กรอกรายชื่อ Backend ที่อยากโหลดทั้งหมด แยกโดยใช้จุลภาค ','"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/resources/AbstractResource.cpp:93
 #, kde-format
 msgid "Broken"
-msgstr ""
+msgstr "พัง"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/resources/AbstractResource.cpp:95
 #, kde-format
 msgid "Available"
-msgstr ""
+msgstr "มีอยู่"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/resources/AbstractResource.cpp:99
 #, kde-format
 msgid "Upgradeable"
-msgstr ""
+msgstr "สามารถอัพเกรดได้"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/resources/AbstractResource.cpp:239
 #, kde-format
 msgid "Launch"
-msgstr ""
+msgstr "เปิด"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/resources/AbstractResource.cpp:250
 #, kde-format
 msgctxt "@info 'Refresh' is used as a noun here, and %1 is an app's version number"
 msgid "Refresh of version %1"
-msgstr ""
+msgstr "เวอร์ชัน %1 ฉบับใหม่"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/resources/AbstractResource.cpp:260
 #, kde-format
 msgctxt "Do not translate or alter \\u009C"
 msgid "%1 → %2%1 → %2%2"
-msgstr ""
+msgstr "%1 → %2%1 → %2%2"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/resources/AbstractResourcesBackend.cpp:160
 #, kde-format
 msgid "Please verify Internet connectivity"
-msgstr ""
+msgstr "โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ต"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/resources/ResourcesModel.cpp:104
 #, kde-format
 msgid "Refresh"
-msgstr ""
+msgstr "รีเฟรช"
 
 #. +> trunk6 stable6
 #: libdiscover/resources/ResourcesModel.cpp:405
 #, kde-format
 msgctxt "@info:status %1 is the name of a source of updates"
 msgid "Refreshing %1"
-msgstr ""
+msgstr "กำลังรีเฟรช %1"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/resources/ResourcesProxyModel.cpp:787
 #, kde-format
 msgctxt "an approximation number, like 3000+"
 msgid "%1+"
-msgstr ""
+msgstr "%1+"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/resources/ResourcesUpdatesModel.cpp:112
 #, kde-format
 msgid "Updates"
-msgstr ""
+msgstr "อัพเดต"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/Transaction/Transaction.cpp:133
 #, kde-format
 msgctxt "@label Download rate"
 msgid "%1/s"
-msgstr ""
+msgstr "%1/วิ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/Transaction/TransactionModel.cpp:77
 #, kde-format
 msgctxt "@info:status"
 msgid "Starting"
-msgstr ""
+msgstr "กำลังเรื่ม"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/Transaction/TransactionModel.cpp:79
 #, kde-format
 msgctxt "@info:status"
 msgid "Waiting"
-msgstr ""
+msgstr "กำลังรอ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/Transaction/TransactionModel.cpp:81
 #, kde-format
 msgctxt "@info:status"
 msgid "Downloading"
-msgstr ""
+msgstr "กำลังดาวน์โหลด"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/Transaction/TransactionModel.cpp:85
 #, kde-format
 msgctxt "@info:status"
 msgid "Installing"
-msgstr ""
+msgstr "กำลังติดตั้ง"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/Transaction/TransactionModel.cpp:87
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing"
-msgstr ""
+msgstr "กำลังลบ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/Transaction/TransactionModel.cpp:89
 #, kde-format
 msgctxt "@info:status"
 msgid "Changing Addons"
-msgstr ""
+msgstr "กำลังเปลี่ยนส่วนขยาย"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/Transaction/TransactionModel.cpp:93
 #, kde-format
 msgctxt "@info:status"
 msgid "Done"
-msgstr ""
+msgstr "เสร็จสิ้น"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/Transaction/TransactionModel.cpp:95
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed"
-msgstr ""
+msgstr "ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/Transaction/TransactionModel.cpp:97
 #, kde-format
 msgctxt "@info:status"
 msgid "Cancelled"
-msgstr ""
+msgstr "ยกเลิก"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/UpdateModel/UpdateModel.cpp:137
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Applications"
-msgstr ""
+msgstr "แอพพลิเคชั่น"
 
 #. +> trunk6 stable6
 #: libdiscover/UpdateModel/UpdateModel.cpp:138
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Application Support"
-msgstr ""
+msgstr "ส่วนรองรับแอพ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/UpdateModel/UpdateModel.cpp:139
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "System Software"
-msgstr ""
+msgstr "ซอฟต์แวร์ระบบ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/UpdateModel/UpdateModel.cpp:140
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Addons"
-msgstr ""
+msgstr "ส่วนขยาย"
 
 #. +> stable6 stable5
 #: libdiscover/backends/SteamOSBackend/SteamOSBackend.cpp:94
 #, kde-format
 msgid "SteamOS: Unable to query atomupd for SteamOS Updates..."
-msgstr ""
+msgstr "SteamOS: ไม่สามารถค้นหา atomupd เพื่อหาอัพเดตได้..."
 
 #. +> stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeSourcesBackend.cpp:74
 #, kde-format
 msgid "ostree remotes"
-msgstr ""
+msgstr "Remote ของ ostree"
