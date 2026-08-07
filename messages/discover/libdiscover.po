@@ -2515,7 +2515,7 @@ msgstr "รีสตาร์ท:"
 #: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:419
 #, kde-format
 msgid "Vendor:"
-msgstr "ผู้ผลิต:"
+msgstr "ผู้จำหน่าย:"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
@@ -2631,248 +2631,248 @@ msgstr "ยอบรับ EULA"
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:305
 #, kde-format
 msgid "The package %1 and its vendor %2 require that you accept their license:\n %3"
-msgstr ""
+msgstr "แพ็คเกจ %1 และผู้จำหน่าย %2 ของมันต้องการให้คุณยอมรับลิขสิทธ์ของเขา:\n %3"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:928
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:344
 #, kde-format
 msgid "Missing signature for %1 in %2"
-msgstr ""
+msgstr "ไม่มีลายเซ็นสำหรับ %1 ใน %2"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:929
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:345
 #, kde-format
-msgid "Do you trust the following key?\n\nUrl: %1\nUser: %2\nKey: %3\nFingerprint: %4\nTimestamp: %4\n"
-msgstr ""
+msgid "Do you trust the following key?\n\nUrl: %1\nUser: %2\nKey: %3\nFingerprint: %4\nTimestamp: %5\n"
+msgstr "คุณเชื่อกูญแจนี้ใหม\n\nURL: %1\nผู้ใช้: %2\nกุญแจ: %3\nลายนิ้วมือดิจิทัล: %4\nเวลา: %5\n"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:201
 #, kde-format
 msgid "This action cannot be completed as it would remove the following software which is critical to the system's operation:<nl/><ul><li>%1</li></ul><nl/>If you believe this is an error, please report it as a bug to the packagers of your distribution."
-msgstr ""
+msgstr "ไม่สามารถทำให้เสร็จได้เพราะมันจะไปลบซอฟต์แวร์เหล่านี้ที่สำคัญต่อการทำงานของระบบ:<nl/><ul><li>%1</li></ul><nl/>ถ้าคุณคิดว่านี่เป็นข้อผิดผลาด โปรดรายงานไปยังผู้ทำแพ็คเกจของ Distribution ของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:214
 #, kde-format
 msgid "Confirm package removal"
-msgstr ""
+msgstr "ยืนยันการลบแพ็คเกจ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:215
 #, kde-format
 msgid "This action will also remove the following package:\n%2"
 msgid_plural "This action will also remove the following packages:\n%2"
-msgstr[0] ""
+msgstr[0] "การกระทำนี้จะไปลบแพ็คเกจพวกนี้ด้วย:\n%2"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/qml/DependenciesButton.qml:33
 #, kde-format
 msgid "Show Dependencies…"
-msgstr ""
+msgstr "ดูแพ็คเกจที่พื่งพา…"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/qml/DependenciesButton.qml:43
 #, kde-format
 msgid "Dependencies for package: %1"
-msgstr ""
+msgstr "แพ็คเกจที่ %1พื่งพาอยู่"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/qml/PackageKitPermissions.qml:31
 #, kde-format
 msgid "Full Access"
-msgstr ""
+msgstr "เข้าถึงได้แบบเต็ม"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/PackageKitBackend/qml/PackageKitPermissions.qml:32
 #, kde-format
 msgid "Can access everything on the system"
-msgstr ""
+msgstr "เข้าได้ถึงทุกอย่างบนระบบ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/rpm-ostree-backend-categories.xml:4
 #, kde-format
 msgctxt "Category"
 msgid "Operating System"
-msgstr ""
+msgstr "ระบบปฏิบัติการ"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:172
 #, kde-format
 msgid "rpm-ostree backend: Multiple booted deployments found. Please file a bug."
-msgstr ""
+msgstr "Backend rpm-ostree: มีหลาย Deployment เปิดใช้งานอยู่ โปรดรายงานบั้ก"
 
 #. +> stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:190
 #, kde-format
 msgid "rpm-ostree: Multiple booted deployments found. Please file a bug."
-msgstr ""
+msgstr "rpm-ostree: มีหลาย Deployment เปิดใช้งานอยู่ โปรดรายงานบั้ก"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:184
 #, kde-format
 msgid "rpm-ostree backend: No booted deployment found. Please file a bug."
-msgstr ""
+msgstr "Backend rpm-ostree: ไม่มี Deployment เปิดใช้งานอยู่ โปรดรายงานบั้ก"
 
 #. +> stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:202
 #, kde-format
 msgid "rpm-ostree: No booted deployment found. Please file a bug."
-msgstr ""
+msgstr "rpm-ostree: ไม่มี Deployment เปิดใช้งานอยู่ โปรดรายงานบั้ก"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:373
 #, kde-format
 msgctxt "@action: button"
 msgid "Begin Upgrade…"
-msgstr ""
+msgstr "เรื่มอัพเกรด…"
 
 #. +> stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:417
 #, kde-format
 msgid "<b>A new major version of %1 has been released!</b>\nTo be able to update to this new version, make sure to apply all pending updates and reboot your system."
-msgstr ""
+msgstr "<b>เวอร์ชันหลักของ %1 มีมาใหม่แล้ว!</b>\nถ้าจะอัพเดตไปเวอร์ชันใหม่นี้ ต้องติดตั้งอัพเดตทั้งหมดที่มีก่อน แล้วรีสตาร์ทระบบ"
 
 #. +> stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:425
 #, kde-format
 msgid "Upgrade to %1 %2"
-msgstr ""
+msgstr "อัพเกรดไปยัง %1 %2"
 
 #. +> stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:427
 #, kde-format
 msgid "<b>A new major version has been released!</b>"
-msgstr ""
+msgstr "<b>เวอร์ชันหลักใหม่มีมาแล้ว!</b>"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:524
 #, kde-format
 msgid "You have pending updates for the current version. Proceeding anyway."
-msgstr ""
+msgstr "คุณยังมีอัพเดตที่ยังรออยู่สำหรับเวอร์ชันที่มี กำลังดำเนินต่ออย่างไรก็ตาม"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:527
 #, kde-format
 msgid "Please update to the latest version before rebasing to a major version"
-msgstr ""
+msgstr "โปรดอัพเดตให้ถึงเวอร์ชันล่าสุดก่อนย้ายไปเวอร์ชั่นหลัก"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeBackend.cpp:535
 #, kde-format
 msgid "Missing remote ref for rebase operation. Please file a bug."
-msgstr ""
+msgstr "ไม่มีแหล่งที่มา remote ref สำหรับการโอนย้าย โปรดรายงานบั้ก"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:301
 #, kde-format
 msgid "GPL and other licenses"
-msgstr ""
+msgstr "GPL และสิขสิทธ์อื่นๆ"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:311
 #, kde-format
 msgid "Additional packages: "
-msgstr ""
+msgstr "แพ็คเกจเพื่มเติม: "
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:318
 #, kde-format
 msgid "Additional modules: "
-msgstr ""
+msgstr "โมดูลเพื่มเติม: "
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:325
 #, kde-format
 msgid "Local packages: "
-msgstr ""
+msgstr "แพ็คเกจบนเครื่อง: "
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:332
 #, kde-format
 msgid "Replaced packages:"
-msgstr ""
+msgstr "แพ็คเกจที่ถูกทดแทน: "
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:339
 #, kde-format
 msgid "Removed packages:"
-msgstr ""
+msgstr "แพ็คเกจที่ลบไป: "
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:400
 #, kde-format
 msgid "Currently booted version (pinned)"
-msgstr ""
+msgstr "เวอร์ชันที่ถูกใช้งานอยู่ (ปักไว้)"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:402
 #, kde-format
 msgid "Currently booted version"
-msgstr ""
+msgstr "เวอร์ชันที่ถูกใช้งานอยู่"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:405
 #, kde-format
 msgid "Version that will be used after reboot"
-msgstr ""
+msgstr "เวอรชันที่จะใช้หลังรีสตาร์ท"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:407
 #, kde-format
 msgid "Fallback version (pinned)"
-msgstr ""
+msgstr "เวอร์ชันสำรอง (ปักไว้)"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:409
 #, kde-format
 msgid "Fallback version"
-msgstr ""
+msgstr "เวอร์ชันสำรอง"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:40
 #, kde-format
 msgid "rpm-ostree backend: Error: No DBus interface provided. Please file a bug."
-msgstr ""
+msgstr "Backend rpm-ostree: ปัญหา: ไม่มี Interface ของ DBus มาให้ โปรดรายงานบั้ก"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:60
 #, kde-format
 msgid "rpm-ostree backend: Error: Can not start a transaction for resource with an invalid format. Please file a bug."
-msgstr ""
+msgstr "Backend rpm-ostree: ปัญหา: ไม่สามารถเรื่ม Transaction กับทรัพยากรที่มีรูปแบบไม่ถูกต้อง โปรดรายงานบั้ก"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:80
 #, kde-format
 msgid "rpm-ostree backend: Error: Can not rebase to an empty ref. Please file a bug."
-msgstr ""
+msgstr "Backend rpm-ostree: ปัญหา: ไม่สามารถย้ายไปยัง ref ที่ว่างเปล่าได้ โปรดรายงานบั้ก"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:98
 #, kde-format
 msgid "rpm-ostree backend: Error: Unknown operation requested. Please file a bug."
-msgstr ""
+msgstr "Backend rpm-ostree: ปัญหา: ไม่รู้จักคำขอที่ขอมา โปรดรายงานบั้ก"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:160
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:183
 #, kde-format
 msgid "rpm-ostree transaction failed with:\n%1"
-msgstr ""
+msgstr "Transaction ของ rpm-ostree ล้มเหลวด้วยข้อผดพลาด:\n%1"
 
 #. +> stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:158
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:181
 #, kde-format
 msgid "rpm-ostree transaction failed with:"
-msgstr ""
+msgstr "Transaction ของ rpm-ostree ล้มเหลวด้วยข้อผดพลาด:"
 
 #. +> trunk6 stable6
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:244
 #, kde-format
 msgid "rpm-ostree backend: Error: Unknown resource format. Please file a bug."
-msgstr ""
+msgstr "Backend rpm-ostree: ปัญหา: ทรัพยากรมีรูปแบบไม่ถูกต้อง โปรดรายงานบั้ก"
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:366
