@@ -118,8 +118,8 @@ msgstr "การจัดการแพ็คเกจ"
 #. +> trunk6 stable6
 #: libdiscover/backends/AlpineApkBackend/AlpineApkBackend.cpp:203
 #, kde-format
-msgid "Loading, please wait…"
-msgstr "กำลังโหลด โปรดรอ…"
+msgid "Loading, please wait..."
+msgstr "กำลังโหลด โปรดรอ..."
 
 #. +> trunk6 stable6
 #: libdiscover/backends/AlpineApkBackend/AlpineApkBackend.cpp:289
@@ -1314,8 +1314,8 @@ msgstr "Holo"
 #: libdiscover/backends/HoloBackend/HoloBackend.cpp:113
 #, kde-format
 msgctxt "%1 is the pretty name of the distro e.g. Holo or SteamOS"
-msgid "Holo: Unable to query atomupd for %1 Updates…"
-msgstr "Holo: ไม่สามารถค้นหา atomupd เพื่อหาอัพเดตได้…"
+msgid "Holo: Unable to query atomupd for %1 Updates..."
+msgstr "Holo: ไม่สามารถค้นหา atomupd เพื่อหาอัพเดตได้..."
 
 #. +> trunk6 stable6 stable5
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:64
@@ -3213,7 +3213,7 @@ msgstr ""
 #. +> stable6 stable5
 #: libdiscover/backends/SteamOSBackend/SteamOSBackend.cpp:94
 #, kde-format
-msgid "SteamOS: Unable to query atomupd for SteamOS Updates…"
+msgid "SteamOS: Unable to query atomupd for SteamOS Updates..."
 msgstr ""
 
 #. +> stable5
